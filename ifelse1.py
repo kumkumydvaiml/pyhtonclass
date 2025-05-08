@@ -1,27 +1,27 @@
 
-# option=[  
-#         "1. Kajal",
-#         "2. Maskara",
-#         "3. Eyeliner",
-#         "4. Lipstic",
-#         "5. EyeShadow",
-#         "6. Primer" ]
-# print(option)
+# option={ 
+#         1: "Kajal",
+#         2: "Maskara",
+#         3: "Eyeliner",
+#         4: "Lipstic",
+#         5: "EyeShadow",
+#         6: "Primer" }
+# print(type(option))
 
 # glamour=(input("Enter which makeup you want :"))
 
 
-# if(glamour in option):
+# if(1 in option):
 #     print("Kajal price is 1100rs")
-# elif(glamour in option):
+# elif(2 in option):
 #     print("Maskara price is 1500rs")
-# elif(glamour in option):
+# elif(3 in option):
 #     print("Eyeliner price is 3000rs")
-# elif(glamour in option):
+# elif(4 in option):
 #     print("Lipstic price is 1000 rs")
-# elif(glamour in option):
+# elif(5 in option):
 #     print("Eyeshadow price is 4500")
-# elif(glamour in option):
+# elif(6 in option):
 #     print("Primer price is 2500rs")
     
 # else:
@@ -56,7 +56,7 @@
     
 
 
-
+#2nd method
 # a=["coffee","tea","juice"]
 # print(a)
 
@@ -70,6 +70,8 @@
 # else:
 #     print("Invalid")
 
+
+# Ist method
 dic={
     1:"coffee",
     2:"tea",
