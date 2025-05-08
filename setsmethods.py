@@ -1,7 +1,8 @@
-sets={1,2,3,4}
+sets={1,2,3,23,1,4}
 
+
+sets.add(9)
 print(sets)
-
 #methods of sets
 sets.add(5) #to add some value in set 
 print(sets)
