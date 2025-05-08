@@ -1,5 +1,6 @@
 li=[1,2,3,6,7,2]
-print(type(li))
+print(type(li)) #if we want to find memory address
+print(id(li))
 
 li.append(10)
 print(li)
