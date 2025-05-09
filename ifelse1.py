@@ -100,33 +100,33 @@
 
 
 
-# sal=int(input("Enter salary :"))
-# if(sal>0 and sal<=1000):
-#     print("You can purchase Nokia")
-#     print("Price is 5000rs and 10% gst")
-#     print("gst is",sal*10/100)
-#     print("After gst mobile price is",sal+sal*10/100)
-#     print("Your installment make is 24 months")
-#     print("Per month you should pay",(sal+sal*10/100)/24)
-# elif(sal>1000 and sal<=5000):
-#     print("You can purchase Realme")
-#     print("Price is 30000rs and 15% gst")
-#     print("gst",sal*15/100)
-#     print("After gst mobile price is",sal+sal*15/100)
-#     print("Your installment make is 36 months")
-#     print("Per month you should pay",(sal+sal*10/100)/36)
+sal=int(input("Enter salary :"))
+if(sal>0 and sal<=1000):
+    print("You can purchase Nokia")
+    print("Price is 5000rs and 10% interest")
+    print("interest is",sal*10/100)
+    print("After interest mobile price is",sal+sal*10/100)
+    print("Your installment make is 24 months")
+    print("Per month you should pay",(sal+sal*10/100)/24)
+elif(sal>1000 and sal<=5000):
+    print("You can purchase Realme")
+    print("Price is 30000rs and 15% interest")
+    print("interest",sal*15/100)
+    print("After interest mobile price is",sal+sal*15/100)
+    print("Your installment make is 36 months")
+    print("Per month you should pay",(sal+sal*10/100)/36)
 
-# elif(sal>50000):
-#     print("You can purchase iphone")
-#     print("Price is 80000rs and 20% gst")
-#     print("After gst",sal*20/100)
-#     print("After gst mobile price is",sal+sal*20/100)
-#     print("Your installment make is 48 months")
-#     print("Per month you should pay",(sal+sal*10/100)/48) 
+elif(sal>50000):
+    print("You can purchase iphone")
+    print("Price is 80000rs and 20% interest")
+    print("After interest",sal*20/100)
+    print("After interest mobile price is",sal+sal*20/100)
+    print("Your installment make is 48 months")
+    print("Per month you should pay",(sal+sal*10/100)/48) 
     
 
-# else:
-#     print("getout")
+else:
+    print("getout")
 
 
 
