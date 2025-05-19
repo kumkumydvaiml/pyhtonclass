@@ -11,3 +11,5 @@ if(sum==ans):
  print("Armstrom")
 else:
  print("not armstrom")
+
+
