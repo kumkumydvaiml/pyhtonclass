@@ -12,21 +12,21 @@
 
 
 
-# li=[8,4,6,3,0,1]
-# for i in range(len(li)):
-#     for j in range(i+i,len(li)):
-#         if li[j]<li[i]:
-#             temp=li[i]
-#             li[i]=li[j]
-#             li[j]=temp
-# print(li)
+li=[8,4,6,3,0,1]
+for i in range(len(li)):
+    for j in range(i+i,len(li)):
+        if li[j]<li[i]:
+            temp=li[i]
+            li[i]=li[j]
+            li[j]=temp
+print(li)
 
 
 
 
 
-n=input("Enter number :")
-print(n[::-2])
+# n=input("Enter number :")
+# print(n[::-2])
 
 
 
