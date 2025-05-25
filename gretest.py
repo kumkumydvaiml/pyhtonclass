@@ -7,4 +7,4 @@ while n>0:
     if(digit>g):
         g=digit
     n=n//10
-print(g)                         
+print(g)                        

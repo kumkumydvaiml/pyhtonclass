@@ -64,16 +64,66 @@
 #  print("No is not a armstrong.")    
 
 
-n=input("Enter the number :")
-len=len(n)
-n=int(n)
-sum=0
-ans=n
-while n>0:
-    digit=n%10
-    sum=sum+digit**len
-    n=n//10
-if ans==sum:
-    print("No is an armstrong.")
+# n=input("Enter the number :")
+# len=len(n)
+# n=int(n)
+# sum=0
+# ans=n
+# while n>0:
+#     digit=n%10
+#     sum=sum+digit**len
+#     n=n//10
+# if ans==sum:
+#     print("No is an armstrong.")
+# else:
+#     print("No is not a armstrong.")
+
+# n=input("Enter the number :")
+# print(n[::-1])
+
+# n=int(input("Enter number :"))
+# rev=0
+# ans=n
+# while n>0:
+#  digit=n%10
+#  rev=rev*10+digit
+#  n=n//10
+# if ans==rev:
+#     print("Palindrom")
+# else:
+#     print("Not palindrom")  
+
+
+n=int(input("Enter number :"))
+if n==1:
+    n=int(input("Enter 2,3 or 4 :"))
+    if n==2:
+        n=int(input("Enter 3 or 4 :"))
+        if n==3:
+            n=int(input("Enter 4 :"))
+            if n==4:
+                print("Reached")
+        elif n==4:
+            print("Reached")
+        else:
+            print("Invalid")          
+    elif n==3:
+            n=int(input("Enter 2 or 4 :"))
+            if n==2:
+                n=int(input("Enter 4 :"))
+                if n==4:
+                    print("Reached")
+            else:
+                 print("Invalid")        
+    elif n==4:
+                print("Reached")         
+    else:
+        print("Invalid")            
 else:
-    print("No is not a armstrong.")
+    print("Invalid")   
+    
+
+
+
+      
+        
