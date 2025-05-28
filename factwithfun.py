@@ -24,8 +24,6 @@ print(ans)
 #         break
 #     elif a==2:
 #         perfect_number()
-        
-    
 
 
 

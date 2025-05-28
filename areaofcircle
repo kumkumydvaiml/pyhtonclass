@@ -1,3 +1,16 @@
-r=(input("Enter radius :"))
-pi=3.14
-print(r*r*pi)
+# r=(input("Enter radius :"))
+# pi=3.14
+# print(r*r*pi)
+
+
+n=int(input("Enter a number :"))
+for i in range(1,n):
+    if n==1:
+        print("Not a prime")
+        break
+    elif n<2:
+        print("Not prime")
+        break
+    else:
+        print("Prime")
+    
