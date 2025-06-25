@@ -5071,6 +5071,223 @@ for i in range(n):
 #     first=second
 #     second=next
 #     print(next)
+# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)# for i in range(n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)
 
 
 
