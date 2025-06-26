@@ -5783,6 +5783,18 @@ for i in range(n):
 #     first=second
 #     second=next
 #     print(next)
+#     second=next
+#     print(next)first=second
+#     second=next
+#     print(next)first=second
+#     second=next
+#     print(next)first=second
+#     second=next
+#     print(next)first=second
+#     second=next
+#     print(next)
+#     second=next
+#     print(next)
 
 
 
