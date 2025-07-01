@@ -65,19 +65,20 @@
 # else:
 #     print("Try again")
 
-amt=int(input("Enter amount :"))
-if (amt>0 or amt<1000):
-    print("Discount is provide you 5% a/c to your amount",amt*5/100)
-elif (amt>=1000 or amt<5000):
-    print("Discount is provide you 10% a/c to your amount",amt*10/100)
-elif (amt>=5000 or amt<10000):
-    print("Discount is provide you 15% a/c to your amount",amt*15/100)
-elif (amt>=10000 or amt<30000):
-    print("Discount is provide you 20% a/c to your amount",amt*20/100)
-else:
-    print("Inavlid amount")
-    
-    
+# amt=int(input("Enter amount :"))
+# if (amt>0 or amt<1000):
+#     print("Discount is provide you 5% a/c to your amount",amt*5/100)
+# elif (amt>=1000 or amt<5000):
+#     print("Discount is provide you 10% a/c to your amount",amt*10/100)
+# elif (amt>=5000 or amt<10000):
+#     print("Discount is provide you 15% a/c to your amount",amt*15/100)
+# elif (amt>=10000 or amt<30000):
+#     print("Discount is provide you 20% a/c to your amount",amt*20/100)
+# else:
+#     print("Inavlid amount")
+
+
+  
     
 
 
