@@ -52,19 +52,82 @@
 #     n=n//10
 # print(rev)
 
-first=0
-second=1
-next
-n=int(input("Enter a number :"))
-print(first)
-print(second)
-for i in range(1,n-2):
-    next=first+second
-    first=second
-    second=next
-    print(next)
+# first=0
+# second=1
+# next
+# n=int(input("Enter a number :"))
+# print(first)
+# print(second)
+# for i in range(1,n-2):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)
 
+# rev=0
+# n=int(input("Enter a number :"))
+# ans=n
+# while n>0:
+#     digit=n%10
+#     rev=rev*10+digit
+#     n=n//10
+# if ans==rev:
+#     print("Palindrom")
+# else:
+#     print("Not a palindrom")
+
+
+# count=0
+# n=int(input("Enter a number :"))
+# while n>0:
+#     digit=n%10
+#     count+=1
+#     n=n//10
+# print("Count = ",count)
     
+# sum=0
+# n=int(input("Enter a number :"))
+# while n>0:
+#     digit=n%10
+#     sum=sum+digit
+#     n=n//10
+# print(sum)
+
+
+
+# start=int(input("Enter start of range :"))
+# end=int(input("Enter end of range :"))
+# for num in range(start,end+1):
+#     if num>1:
+#         for i in range(2,num):
+#             if num%i==0:
+#                 break
+#             else:
+#                 print(num,end= " ")
+
+
+# base=int(input("Enter base :"))
+# power=int(input("Enter power :"))
+
+# for i in range(1,power):
+#     ans=base**power
+# print(ans)
+
+
+n=(input("Enter a number :"))
+ans=n
+sum=0
+n1=len(n)
+n=int(n)
+while n>0:
+    digit=n%10
+    sum=sum+digit**n1
+    n=n//10
+if ans==sum:
+    print("Armstrong")
+else:
+    print("Not an armstrong")
+
 
 
 
