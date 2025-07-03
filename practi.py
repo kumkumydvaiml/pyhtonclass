@@ -101,13 +101,42 @@
 #     print("prime")
 
 
-n=int(input("Enter a number :"))
-is_prime=True
-for i in range(2,int(n**0.5)+1):
-    if n%i==0:
-        is_prime=False
-        break
-if is_prime and n>1:
-    print(n,"is a prime member")
-else:
-    print(n,"is not a prime member")
+# n=int(input("Enter a number :"))
+# is_prime=True
+# for i in range(2,int(n**0.5)+1):
+#     if n%i==0:
+#         is_prime=False
+#         break
+# if is_prime and n>1:
+#     print(n,"is a prime member")
+# else:
+#     print(n,"is not a prime member")
+
+# n=10
+# while n<=15:
+#     print(n,end=" ")
+#     n+=1
+
+
+# n=1
+# while n<=5:
+#     print(n**3)
+#     n+=1
+
+# n=1
+# while n<=10:
+#     if n%2!=0:
+#         print(n)
+#     n+=1
+
+# n=1
+# mul=1
+# while n<=5:
+#     mul*=n
+#     n+=1
+# print(mul)
+
+
+
+
+
