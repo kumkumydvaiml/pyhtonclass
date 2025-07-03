@@ -36,13 +36,14 @@
 #     print(n*i)
 #     i+=1
 
-# n=int(input("Enter a number :"))
-# for i in range(2,n):
-#     if n%i==0:
-#         print("Not a prime")
-#         break
-# else:
-#     print("Prime")
+n=int(input("Enter a number :"))
+
+for i in range(2,n):
+    if n%i==0:
+        print("Not a prime")
+        break
+else:
+    print("Prime")
 
 # rev=0
 # n=int(input("Enter a number :"))
@@ -114,19 +115,7 @@
 # print(ans)
 
 
-n=(input("Enter a number :"))
-ans=n
-sum=0
-n1=len(n)
-n=int(n)
-while n>0:
-    digit=n%10
-    sum=sum+digit**n1
-    n=n//10
-if ans==sum:
-    print("Armstrong")
-else:
-    print("Not an armstrong")
+
 
 
 

@@ -39,8 +39,67 @@
 # for i in range(1,11):
 #     print(n*i)
 
-sum=0
-for i in range(1,11):
-    sum=i+sum
-print("Total sum = ",sum)
+# sum=0
+# for i in range(1,11):
+#     sum=i+sum
+# print("Total sum = ",sum)
+
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     print(i,end=" ")
+
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     print(i**2,end=" ")
+
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     if i%2==0:
+#         print(i)
+
+# sum=0
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     sum+=i
+# print("Sum = ",sum)
+
+# str="kumkum"
+# for i in range(len(str)-1,-1,-1):
+#      print(str[i])
+
+
+# vowels='aeiou'
+# word='education'
+# count=0
+# for char in word:
+#     if char in vowels:
+#         count+=1
+# print(f"Total vowels in {word} is {count}")
+
+# first=0
+# second=1
+# n=int(input("Enter a number :"))
+# print(first,second,end=" ")
+# for i in range(1,n-1):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next,end=" ")
+
+# fact=1
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     fact*=i
+# print(fact)
+
+# n=int(input("Enter a number :"))
+# for i in range(2,n):
+#     if n%i==0:
+#         print("Not a prime")
+#         break
+# else:
+#     print("prime")
+
+
+
 
