@@ -129,12 +129,12 @@
 #         print(n)
 #     n+=1
 
-# n=1
-# mul=1
-# while n<=5:
-#     mul*=n
-#     n+=1
-# print(mul)
+n=1
+mul=1
+while n<=5:
+    mul*=n
+    n+=1
+print(mul)
 
 
 
