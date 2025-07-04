@@ -129,12 +129,42 @@
 #         print(n)
 #     n+=1
 
-n=1
-mul=1
-while n<=5:
-    mul*=n
-    n+=1
-print(mul)
+# n=1
+# mul=1
+# while n<=5:
+#     mul*=n
+#     n+=1
+# print(mul)
+
+# is_prime=True
+# n=int(input("Enter a number :"))
+# for i in range(2,int(n**0.5)+1):
+#     if n%i==0:
+#         is_prime=False
+#         break
+# if is_prime and n>1:
+#     print(n,"is prime member")
+# else:
+#     print(n, "is not a prime member")
+
+
+# sum=0
+# n=input("Enter a number :")
+# n1=int(len(n))
+# n=int(n)
+# ans=n
+# while n>0:
+#     digit=n%10
+#     sum=sum+digit**n1
+#     n//=10
+# if ans==sum:
+#     print("Armstrong")
+# else:
+#     print("Not an armstrong")
+
+
+
+
 
 
 
