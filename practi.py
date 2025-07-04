@@ -170,6 +170,28 @@
 #         count+=1
 # print(f"{count} Letter in {word} ")
 
+# count=0
+# n=int(input("Enter digits :"))
+# while n>0:
+#     digit=n%10
+#     count+=1
+#     n//=10
+# print(f"Total digits are {count}")
+
+# a=10
+# b=20
+# c=a+b
+# a=c-a
+# b=c-b
+# print("a = ",a)
+# print("b = ",b)
+
+
+
+
+
+
+
 
 
 
