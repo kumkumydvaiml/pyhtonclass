@@ -36,14 +36,14 @@
 #     print(n*i)
 #     i+=1
 
-n=int(input("Enter a number :"))
+# n=int(input("Enter a number :"))
 
-for i in range(2,n):
-    if n%i==0:
-        print("Not a prime")
-        break
-else:
-    print("Prime")
+# for i in range(2,n):
+#     if n%i==0:
+#         print("Not a prime")
+#         break
+# else:
+#     print("Prime")
 
 # rev=0
 # n=int(input("Enter a number :"))
@@ -113,6 +113,28 @@ else:
 # for i in range(1,power):
 #     ans=base**power
 # print(ans)
+
+
+# for i in range(1,6):
+#     for j in range(1,6):
+#         print("*",end=" ")
+#     print()
+
+
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print("*",end=" ")
+#     print()
+
+
+
+
+
+
+
+
+
+
 
 
 
