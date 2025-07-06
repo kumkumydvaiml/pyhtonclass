@@ -299,6 +299,26 @@
 # Basic Salary &lt;= 10000 : HRA = 20%, DA = 80%
 # Basic Salary &lt;= 20000 : HRA = 25%, DA = 90%
 # Basic Salary &gt; 20000 : HRA = 30%, DA = 95%
+sal=float(input("Enter your basic salary :"))
+hra=0
+da=0
+if sal<=10000:
+    hra=(sal*20)/100
+    da=(sal*80)/100
+elif sal<=20000:
+    hra=(sal*25)/100
+    da=(sal*90)/100
+else:
+    hra=(sal*30)/100
+    da=(sal*95)/100
+gross=sal+hra+da
+print(gross)
+
+
+
+
+
+
 # 20. Write a program to input electricity unit charges and calculate
 # total electricity bill according to the given condition:
 # For first 50 units Rs. 0.50/unit
