@@ -187,6 +187,127 @@
 # print("b = ",b)
 
 
+# 1. Write a program to find maximum between two numbers.
+
+# n1=int(input("Enter number 1 :"))
+# n2=int(input("Enter number 2 :"))
+# if n1>n2:
+#     print("Greatest number is",n1)
+# else:
+#     print("Greatest number is",n2)
+
+
+# 2. Write a program to find maximum between three numbers.
+# n1=int(input("Enter number 1 :"))
+# n2=int(input("Enter number 2 :"))
+# n3=int(input("Enter number 3 :"))
+# if n1>n2 and n1>n3:
+#     print("Greatest number is",n1)
+# elif n2>n1 and n2>n3:
+#     print("Greatest number is",n2)
+# else:
+#     print("Greatest number is",n3)
+
+# 3. Write a program to check whether a number is negative,
+# positive or zero.
+# n=int(input("Enter a number :"))
+# if n>0:
+#     print("Number is positive")
+# elif n<0:
+#     print("Number is negative")
+# else:
+#     print("Number is zero")
+
+# 4. Write a program to check whether a number is divisible by 5
+# and 11 or not.
+# n=int(input("Enter a number :"))
+# if n%5==0 and n%11==0:
+#     print("No. is divisible of 5 and 11")
+# else:
+#     print("Not divisible of 5 and 11")
+
+# 5. Write a program to check whether a number is even or odd.
+# n=int(input("Enter a number :"))
+# if n%2==0:
+#     print("Even number")
+# else:
+#     print("Odd number")
+
+# 6. Write a program to check whether a year is leap year or not.
+# year=int(input("Enter the year :"))
+# if (year%4==0) or (year%400==0 and year%100!=0):
+#     print("Year is a leap year")
+# else:
+#     print("Year is not a leap year")
+
+# 7. Write a program to check whether a character is alphabet or
+# not.
+# ch=input("Enter any alphabet :")
+# if (ch>='a' and ch<='z') or (ch>='A' and ch<='Z'):
+#     print("It's a character/alphabet")
+# else:
+#     print("It's not a character/alphabet")
+
+
+# 8. Write a program to input any alphabet and check whether it is
+# vowel or consonant.
+# ch=input("Enter any character :")
+# li='aeiouAEIOU'
+
+# if ch in li:
+#     print("It's an Vowel")
+# else:
+#     print("It's a consonant")
+
+# 9. Write a program to input any character and check whether it is
+# alphabet, digit or special character.
+# n=input("Enter a any digit or special character or a;phabet what you want : ")
+# if n>='0' and n<='9':
+#     print("Its a digit")
+# elif (n>='A' and n<='Z') or (n>='a' and n<='z'):
+#     print("Its an alphabet")
+# else:
+#     print("Its a special character")
+
+
+# 10. Write a program to check whether a character is uppercase or
+# lowercase alphabet .
+# 11. Write a program to input week number and print week day .
+# 12. Write a program to input month number and print number of
+# days in that month.
+# 13. Write a program to count total number of notes in given
+# amount .
+# 14. Write a program to input angles of a triangle and check whether
+# triangle is valid or not.
+# 15. Write a program to input all sides of a triangle and check
+# whether triangle is valid or not.
+# 16. Write a program to check whether the triangle is equilateral,
+# isosceles or scalene triangle.
+# 17. Write a program to calculate profit or loss.
+# 18. Write a program to input marks of five subjects Physics,
+# Chemistry, Biology, Mathematics and Computer. Calculate
+# percentage and grade according to following:
+# Percentage &gt;= 90% : Grade A
+# Percentage &gt;= 80% : Grade B
+# Percentage &gt;= 70% : Grade C
+# Percentage &gt;= 60% : Grade D
+# Percentage &gt;= 40% : Grade E
+# Percentage &lt; 40% : Grade F
+
+# 19. Write a program to input basic salary of an employee and
+# calculate its Gross salary according to following:
+# Basic Salary &lt;= 10000 : HRA = 20%, DA = 80%
+# Basic Salary &lt;= 20000 : HRA = 25%, DA = 90%
+# Basic Salary &gt; 20000 : HRA = 30%, DA = 95%
+# 20. Write a program to input electricity unit charges and calculate
+# total electricity bill according to the given condition:
+# For first 50 units Rs. 0.50/unit
+# For next 100 units Rs. 0.75/unit
+# For next 100 units Rs. 1.20/unit
+# For unit above 250 Rs. 1.50/unit
+# An additional surcharge of 20% is added to the bill
+
+
 
 
 
