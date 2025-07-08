@@ -107,6 +107,20 @@
 #     print("Invalid Input")
 
 
+pwd=int(input("Enter passward :"))
+user=input("Enter username :")
+if (pwd==1234) and (user=="admin"):
+    print("Login successful")
+elif(pwd==1234) and (user!="admin"):
+    print("Wrong password")
+else:
+    print("User not found")
+
+
+
+
+
+
 
 
   
