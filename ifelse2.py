@@ -107,14 +107,29 @@
 #     print("Invalid Input")
 
 
-pwd=int(input("Enter passward :"))
-user=input("Enter username :")
-if (pwd==1234) and (user=="admin"):
-    print("Login successful")
-elif(pwd==1234) and (user!="admin"):
-    print("Wrong password")
-else:
-    print("User not found")
+# pwd=int(input("Enter passward :"))
+# user=input("Enter username :")
+# if (pwd==1234) and (user=="admin"):
+#     print("Login successful")
+# elif(pwd==1234) and (user!="admin"):
+#     print("Wrong password")
+# else:
+#     print("User not found")
+
+# for i in range(10,0,-1):
+#     print(i,end=" ")
+
+for n in range(20,0,-1):
+    if n==1:
+        print(n,end=" ")
+    else:
+        print(n,end=",")
+
+
+
+
+
+
 
 
 
