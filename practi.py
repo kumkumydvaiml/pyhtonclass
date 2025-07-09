@@ -342,7 +342,19 @@
 #         print(j,end=" ")
 #     print()
 
+# ch=65
+# for i in range(65,70):
+#     for j in range(65,70):
+#         if ch==65:
+#             print("A",end="")
+#     print()
 
+
+for i in range(1,6):
+    for j in range(1,6):
+        print("*",end=" ")
+    print()
+        
 
 
     
