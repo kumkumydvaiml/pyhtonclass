@@ -328,14 +328,25 @@
 # An additional surcharge of 20% is added to the bill
 
 
-a=10
-b=10.0
-if a==b:
-    print("True")
-else:
-    print("False")
+# a=10
+# b=10.0
+# if a==b:
+#     print("True")
+# else:
+#     print("False")
 
 
+# n=int(input("Enter number :"))
+# for i in range(1,n):
+#     for j in range(1,n):
+#         print(j,end=" ")
+#     print()
+
+
+
+
+    
+    
 
 
 
