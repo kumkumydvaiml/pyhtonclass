@@ -119,11 +119,26 @@
 # for i in range(10,0,-1):
 #     print(i,end=" ")
 
-for n in range(20,0,-1):
-    if n==1:
-        print(n,end=" ")
-    else:
-        print(n,end=",")
+# for n in range(20,0,-1):
+#     if n==1:
+#         print(n,end=" ")
+#     else:
+#         print(n,end=",")
+
+
+s=int(input("Enter stating range :"))
+e=int(input("Enter ending range :"))
+
+for s in range(s,e,1):
+    if s%2==0:
+        print(s,end=" ")
+
+
+
+for i in range(10,0,-1):
+    print(i,end=" ")
+
+
 
 
 
