@@ -126,17 +126,17 @@
 #         print(n,end=",")
 
 
-s=int(input("Enter stating range :"))
-e=int(input("Enter ending range :"))
+# s=int(input("Enter stating range :"))
+# e=int(input("Enter ending range :"))
 
-for s in range(s,e,1):
-    if s%2==0:
-        print(s,end=" ")
+# for s in range(s,e,1):
+#     if s%2==0:
+#         print(s,end=" ")
 
 
 
-for i in range(10,0,-1):
-    print(i,end=" ")
+# for i in range(10,0,-1):
+#     print(i,end=" ")
 
 
 

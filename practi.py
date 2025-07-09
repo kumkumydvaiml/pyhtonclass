@@ -328,6 +328,14 @@
 # An additional surcharge of 20% is added to the bill
 
 
+a=10
+b=10.0
+if a==b:
+    print("True")
+else:
+    print("False")
+
+
 
 
 
