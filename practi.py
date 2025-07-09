@@ -361,14 +361,20 @@
 #     print()
 
 
-
-
 # word='Education'
 # count=0
 # for char in word:
 #     if char in word:
 #         count+=1
 # print(f"{count} Letter in {word} ")
+
+count=0
+vowel="aeiou"
+word="kumkum"
+for char in word:
+    if char in vowel:
+        count+=1
+print(count,"Vowels in kumkum")
 
 
     
