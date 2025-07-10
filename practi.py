@@ -377,6 +377,18 @@
 # print(count,"Vowels in kumkum")
 
 
+li=[1,2,3,4]
+# for i in range(len(li)):
+#     print(li[i])
+
+
+# for i in range(4):
+#     print(i)
+
+# print(li[0])
+
+for i in li:
+    print(i+10)
     
     
 
