@@ -377,22 +377,38 @@
 # print(count,"Vowels in kumkum")
 
 
-li=[1,2,3,4]
-# for i in range(len(li)):
-#     print(li[i])
+# li=[1,2,3,4]
+# # for i in range(len(li)):
+# #     print(li[i])
 
 
-# for i in range(4):
-#     print(i)
+# # for i in range(4):
+# #     print(i)
 
-# print(li[0])
+# # print(li[0])
 
-for i in li:
-    print(i+10)
+# for i in li:
+#     print(i+10)
 
-
-
-    
+v=['a','e','i','o','u']
+word={
+    1:'e',
+    2:'d',
+    3:'u',
+    4:'c',
+    5:'a',
+    6:'t',
+    7:'i',
+    8:'o',
+    9:'n'
+}
+count=0
+for char in word:
+    if 1==v[0]:
+        count+=1
+        print(f"vowel in {word} is {count}")
+    else:
+        print(f"Consonant is {count}")
     
 
 
