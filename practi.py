@@ -390,25 +390,14 @@
 # for i in li:
 #     print(i+10)
 
-v=['a','e','i','o','u']
-word={
-    1:'e',
-    2:'d',
-    3:'u',
-    4:'c',
-    5:'a',
-    6:'t',
-    7:'i',
-    8:'o',
-    9:'n'
-}
-count=0
-for char in word:
-    if 1==v[0]:
-        count+=1
-        print(f"vowel in {word} is {count}")
-    else:
-        print(f"Consonant is {count}")
+
+li=[1,5,4,3,7]
+largest=li[0]
+for n in li:
+    if n>largest:
+        largest=n
+
+print("gratest is",largest)
     
 
 
