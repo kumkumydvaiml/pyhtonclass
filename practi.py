@@ -391,12 +391,14 @@
 #     print(i+10)
 
 
-li=[8,3,1,6,9]
-large=li[0]
-for n in li:
-    if n>large:
-        large=n
-print(f"greatest number is {large}")
+# li=[8,3,1,6,9]
+# large=li[0]
+# for n in li:
+#     if n>large:
+#         large=n
+# print(f"greatest number is {large}")
+
+
     
 
 
