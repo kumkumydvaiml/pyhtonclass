@@ -14,12 +14,15 @@
 # print(pro)
 
 
-lar=0
-li=[5,6,10,8,4]
-for i in li:
-    if i>lar:
-        lar=i
+
+li=[-1,-2,-6,-7,-9]
+lar=li[0]
+for i in range(len(li)):
+    if i>li[0]:
+        lar=li[0]
 print(lar)
+
+
 
 
 
