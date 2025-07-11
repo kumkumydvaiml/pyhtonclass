@@ -16,12 +16,15 @@
 
 
 
-# li=[-1,-2,-6,-7,-9]
+li=[-1,-2,-6,-7,-9]
 # lar=li[0]
 # for i in range(len(li)):
 #     if i>li[0]:
 #         lar=li[0]
 # print(lar)
+
+
+
 
 
 
