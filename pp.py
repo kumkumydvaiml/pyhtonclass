@@ -21,9 +21,11 @@
 # p=input("Choose any item :")
 
 
-i=1
-while i<=20:
-    if i%2==0:
-        print("even numbers are",i)
-    i+=1
+# i=1
+# while i<=20:
+#     if i%2==0:
+#         print("even numbers are",i)
+#     i+=1
+
+
 
