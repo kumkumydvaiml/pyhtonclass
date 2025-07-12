@@ -85,8 +85,34 @@
 # else:
 #     print("Not perfect")
 
+# li=[1,3,4,5]
+# sum=0
+# for i in li:
+#     sum+=i
+# print(sum) 
 
-  
+# li=[2,5,3,2,1,3,4,5]
+# count=0
+# for i in li:
+#     count+=1
+# print(count)
+
+# li=[2,5,3,2,1,3,4,5]
+# n=int(input("Enter element from the list :"))
+# count=0
+
+# for i in li:
+#     if i==n:
+#         count+=1
+# print(count)
+
+
+li=[3,5,6,8,10]
+n=int(input("Enter element from the list :"))
+for i in range(len(li)):
+    if li[i]==n:
+        print(i)
+
     
     
 
