@@ -75,15 +75,17 @@
 #     print("Not a palindrome")
 
 # 11. perfect number ?
-ans=0
-n=int(input("Enter the number :"))
-for i in range(1,n):
-    if n%i==0:
-        ans+=i
-if ans==n:
-    print("Perfect")
-else:
-    print("Not perfect")
+# ans=0
+# n=int(input("Enter the number :"))
+# for i in range(1,n):
+#     if n%i==0:
+#         ans+=i
+# if ans==n:
+#     print("Perfect")
+# else:
+#     print("Not perfect")
+
+
   
     
     
