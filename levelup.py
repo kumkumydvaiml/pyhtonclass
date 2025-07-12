@@ -107,11 +107,15 @@
 # print(count)
 
 
-li=[3,5,6,8,10]
-n=int(input("Enter element from the list :"))
-for i in range(len(li)):
-    if li[i]==n:
-        print(i)
+# li=[3,5,6,8,10]
+# n=int(input("Enter element from the list :"))
+# for i in range(len(li)):
+#     if li[i]==n:
+#         print(i)
+
+
+
+
 
     
     
