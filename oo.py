@@ -1,0 +1,5 @@
+f=open("de.txt","rt")
+data=f.read()
+print(data)
+print(type(data))
+f.close()
