@@ -434,10 +434,12 @@
 #     n//=10
 # print(sum)
 
-s='[a,b,c,d,e,f]'
-print(s[::-1])
+# s='[a,b,c,d,e,f]'
+# print(s[::-1])
 
-print(s[1:3:-1] [2:4])
+# print(s[1:3:-1] [2:4])
+
+
 
 
 
