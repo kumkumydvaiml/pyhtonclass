@@ -434,7 +434,8 @@
 #     n//=10
 # print(sum)
 
-
+s='[a,b,c,d,e,f]'
+print(s[::-1])
 
 
 
