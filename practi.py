@@ -449,7 +449,14 @@ s="TCSNQT2025"
 # print(s[:-4])
 print(s[1:])
 
+s1="python"
+s2="language"
+print(s1>s2)
 
+"""call by Value=value
+call by reference=memory addresss
+
+strig behavior is immutable koi""" 
 
 
 
