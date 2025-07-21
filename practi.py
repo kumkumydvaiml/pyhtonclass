@@ -474,11 +474,17 @@ strig behavior is immutable koi"""
 # print(s.find("P"))
 # print(s.index("P"))
 
-s1="python"
-s2="Language"
-s=",".join([s1,s2])
-print(s)
-print(type(s))
+# s1="python"
+# s2="Language"
+# s=",".join([s1,s2])
+# print(s)
+# print(type(s))
+
+s="This is python class"
+res=s.split()
+print(res)
+
+
 
 
 
