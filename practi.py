@@ -459,10 +459,20 @@ call by reference=memory addresss
 strig behavior is immutable koi""" 
 
 
-a = 25 
-b = 25
-print(id(a)) 
-print(id(b)) 
+# a = 25 
+# b = 25
+# print(id(a)) 
+# print(id(b)) 
+
+s="this Is python class"
+print(s.lower())
+print(s.upper())
+print(s.title())
+print(s.capitalize())
+
+
+
+
 
 
 
