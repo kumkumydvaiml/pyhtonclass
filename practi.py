@@ -464,11 +464,26 @@ strig behavior is immutable koi"""
 # print(id(a)) 
 # print(id(b)) 
 
-s="this Is python class"
-print(s.lower())
-print(s.upper())
-print(s.title())
-print(s.capitalize())
+# s="this Is python class"
+# print(s.lower())
+# print(s.upper())
+# print(s.title())
+# print(s.capitalize())
+# print(s.index("p"))
+# print(s.count("s"))
+# print(s.find("P"))
+# print(s.index("P"))
+
+s1="python"
+s2="Language"
+s=",".join([s1,s2])
+print(s)
+print(type(s))
+
+
+
+
+
 
 
 
