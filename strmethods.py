@@ -1,4 +1,4 @@
-
+# topic-methods in string
 s="this Is python class"
 print(s.lower())
 print(s.upper())
