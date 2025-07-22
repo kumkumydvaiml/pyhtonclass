@@ -1,12 +1,15 @@
 # topic=operators in list
-# l=[1,2,"python","java"]
+l1=[1,2,"python","java"]
+
 # print(max(l))
-# print(min(l))
+# print(min(l))  #throw error kyuki different datatype me nahi lagta min,max,sum
 # # print(len(l))
 # # print(type(l))
 # # print(id(l))
 # # print(list())
 # print(sum(l))
+# print(l.clear())
+
 
 # # list=[1,2,3]
 # # print(list)
@@ -28,13 +31,13 @@
 # print(l1+l2)
 # print(l1-l2) # do list ke bich kaam nahi karta hai error thrpw karta hai
 # print(l1*l2)
-l1=[1,2,3,4]
-l2=[1,2,3,4]
+# l1=[1,2,3,4]
+# l2=[1,2,3,4]
 
-print(l1*3)
-print(4 in l1)
-print(l1==l2)
-print(l1 is l2)
+# print(l1*3)
+# print(4 in l1)
+# print(l1==l2)
+# print(l1 is l2)
 
 
 
