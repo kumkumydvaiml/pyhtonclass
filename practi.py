@@ -512,8 +512,8 @@ li=[1,2,3,5,6,5.0,'python']
 # print(li)
 
 a='Python is a language'
-s=a.split()
-print(s)
+# s=a.split()
+# print(s)
 # print(a.capitalize())
 # print(a.upper())
 # print(a.lower())
@@ -522,6 +522,10 @@ print(s)
 # print(a.index('o'))
 # c=','.join([a,b])
 # print(c)
+
+
+
+
 
 
 
