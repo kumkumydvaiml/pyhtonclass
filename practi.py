@@ -507,9 +507,21 @@ li=[1,2,3,5,6,5.0,'python']
 # del li
 # print(li)
 
-x=li.copy()
-print(x)
-print(li)
+# x=li.copy()
+# print(x)
+# print(li)
+
+a='Python is a language'
+s=a.split()
+print(s)
+# print(a.capitalize())
+# print(a.upper())
+# print(a.lower())
+# print(a.title())
+# print(a.count('a'))
+# print(a.index('o'))
+# c=','.join([a,b])
+# print(c)
 
 
 
