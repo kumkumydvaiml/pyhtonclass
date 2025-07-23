@@ -489,6 +489,28 @@ li=[1,2,3,5,6,5.0,'python']
 
 # print(li.index('python'))
 
+# li.reverse()
+# print(li)
+
+# li.insert(1,'java')
+# print(li)
+
+# li.pop(1)
+# print(li)
+
+# li.remove(3)
+# print(li)
+
+# li.clear()
+# print(li)
+
+# del li
+# print(li)
+
+x=li.copy()
+print(x)
+print(li)
+
 
 
 
