@@ -473,6 +473,19 @@ li=[1,2,3,5,6,5.0,'python']
 # print(type(li))
 # print(list())
 
+# li.append(0)
+# print(li)
+
+# li.sort()
+# print(li)
+
+# print(li.count(5))
+
+# li.extend([1,2,3])
+# print(li)
+
+li.copy()
+print(li)
 
 
 
