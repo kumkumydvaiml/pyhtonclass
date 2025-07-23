@@ -484,8 +484,10 @@ li=[1,2,3,5,6,5.0,'python']
 # li.extend([1,2,3])
 # print(li)
 
-li.copy()
-print(li)
+# li.copy()
+# print(li)
+
+# print(li.index('python'))
 
 
 
