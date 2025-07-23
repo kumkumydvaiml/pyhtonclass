@@ -459,10 +459,20 @@
 # strig behavior is immutable koi""" 
 
 
-a = 25 
-b = 25
-print(id(a)) 
-print(id(b)) 
+# a = 25 
+# b = 25
+# print(id(a)) 
+# print(id(b)) 
+
+li=[1,2,3,5,6,5.0,'python']
+# print(min(li))
+# print(max(li))
+# print(len(li))
+# print(id(li))
+# print(sum(li))
+# print(type(li))
+# print(list())
+
 
 
 
