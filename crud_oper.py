@@ -18,6 +18,13 @@ print(my_list[0])
 my_list[0]=20
 print(my_list)
 
+my_list.pop(0)
+print(my_list)
+
+my_list.remove('python')
+print(my_list)
+
+
 
 
 
