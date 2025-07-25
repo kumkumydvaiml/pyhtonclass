@@ -524,6 +524,26 @@ a='Python is a language'
 # print(c)
 
 
+#create
+d1=dict()
+
+#read
+print(d1)
+
+#update
+dd={1:'name',
+    2:'age',
+    3:'course',
+    4:'institute'}
+d1.update(dd)
+print(d1)
+
+#delete
+d1.pop(2)
+print(d1)
+
+
+
 
 
 
