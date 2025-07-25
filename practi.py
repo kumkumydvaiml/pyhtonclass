@@ -547,6 +547,9 @@ d1.popitem()
 print(d1)
 
 print(d1.get(1))
+print(d1.items())
+
+print(d1.keys())
 
 
 
