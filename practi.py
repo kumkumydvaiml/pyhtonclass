@@ -543,6 +543,11 @@ d1.pop(2)
 print(d1)
 
 
+d1.popitem()
+print(d1)
+
+print(d1.get(1))
+
 
 
 
