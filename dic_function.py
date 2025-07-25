@@ -12,4 +12,8 @@ print(dict())
 print(type(my_dict))
 print(sum(my_dict))
 
+x={}
+print(type(x))
+print(x)
+
 
