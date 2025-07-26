@@ -39,7 +39,8 @@ s1=s.copy()
 print(s1,s)
 print(id(s1),id(s2))
 
-
+s.clear()
+print(s)
 
 
 
