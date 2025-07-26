@@ -35,6 +35,12 @@ print(s)
 s.discard('life')
 print(s)
 
+s1=s.copy()
+print(s1,s)
+print(id(s1),id(s2))
+
+
+
 
 
 
