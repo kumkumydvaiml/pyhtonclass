@@ -29,6 +29,14 @@ print(s)
 s.remove('j')
 print(s)
 
+# s.remove('life')
+# print(s)
+
+s.discard('life')
+print(s)
+
+
+
 
 
 
