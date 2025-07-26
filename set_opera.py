@@ -5,3 +5,6 @@ s2={2,3,6,7,8}
 print(s1.difference(s2))
 print(s1.intersection(s2))
 print(s1.symmetric_difference(s2))
+
+s1.symmetric_difference_update(s2)
+print(s1)
