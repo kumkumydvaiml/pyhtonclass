@@ -51,6 +51,9 @@ print(s)
 s.clear()
 print(s)
 
+s.clear()
+print(s)
+
 
 
 
