@@ -42,6 +42,49 @@ print(id(s1),id(s2))
 s.clear()
 print(s)
 
+s.clear()
+print(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
