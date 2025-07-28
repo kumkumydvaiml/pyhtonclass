@@ -1,4 +1,4 @@
-# Methametical opeartions of set
+# Mathametical opeartions of set
 
 s1={1,2,3,4,5}
 s2={2,3,6,7,8}
