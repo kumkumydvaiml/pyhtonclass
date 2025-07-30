@@ -27,6 +27,6 @@ else:
     print('not a palindrome')
     
 var= "I love python"
-print(var[-2:-5:])
+print(var[-5:-2])
 
 
