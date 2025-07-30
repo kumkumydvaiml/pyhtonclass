@@ -25,6 +25,8 @@ if s1==s:
     print('palindrome')
 else:
     print('not a palindrome')
-
+    
+var= "I love python"
+print(var[-2:-5:])
 
 
