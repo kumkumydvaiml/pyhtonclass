@@ -7,12 +7,14 @@
 
 # to count the char
 s1='kumkum'
-
-count=0
-for _ in s1:
-    if s1=='k':
-        count+=1
-print(count)
-
-
+# target='k'
+# count=0
+# for _ in s1:
+#     if _==target:
+#         count+=1    
+# print(count)
+s=''
+for i in range(len(s1)-1,-1,-1):
+    s+=s1[i]
+print(s)
 
