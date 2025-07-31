@@ -576,11 +576,14 @@
 #     print(" "*(n-i)+"*"*i)
 #     i+=1
 
-n=int(input("Enter a number :"))
-i=0
-while i<=n:
-    print("*"*n + " "*i)
-    n-=1
+# n=int(input("Enter a number :"))
+# i=0
+# while i<=n:
+#     print("*"*n + " "*i)
+#     n-=1
+
+
+
 
 
 
