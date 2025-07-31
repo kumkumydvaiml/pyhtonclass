@@ -19,6 +19,17 @@ while i<n:
     print('*'*(n-i))
     i+=1
 
+n=5
+i=1
+while i<=n:
+    # print("*"*i)
+    # i=i+1
+    print(' '*(n-i)+'*_'*i)
+    i+=1
+
+
+
+
 
 n=5
 i=0
