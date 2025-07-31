@@ -326,6 +326,7 @@
 
 
 
+
 # # 20. Write a program to input electricity unit charges and calculate
 # # total electricity bill according to the given condition:
 # # For first 50 units Rs. 0.50/unit
