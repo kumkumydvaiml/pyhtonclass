@@ -564,6 +564,19 @@
 
 # print(d1.keys())
 
+# n=int(input("Enter a number :"))
+# i=1
+# while i<=5:
+#     print('*'*i + " "*(n-i))
+#     i+=1
+
+# n=int(input("Enter a number :"))
+# i=1
+# while i<=n:
+#     print(" "*(n-i)+"*"*i)
+#     i+=1
+
+
 
 
 
