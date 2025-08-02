@@ -615,11 +615,19 @@
 #     print("5"*n+" "*i)
 #     n=n-1
 
-n=5
-i=1
-for i in range(1,6):
-    print('5'*n+' '*i)
-    n=n-1
+# n=5
+# i=1
+# for i in range(1,6):
+#     print('5'*n+' '*i)
+#     n=n-1
+
+ch='kumkumkk'
+count=0
+
+for char in ch:
+    if char=='m':
+        count+=1
+print(count)
 
 
 
