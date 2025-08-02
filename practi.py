@@ -621,13 +621,15 @@
 #     print('5'*n+' '*i)
 #     n=n-1
 
-ch='kumkumkk'
-count=0
+# ch='kumkum'
+# count=0
 
-for char in ch:
-    if char=='m':
-        count+=1
-print(count)
+# for char in ch:
+#     if char=='m':
+#         count+=1
+# print(count)
+
+
 
 
 
