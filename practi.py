@@ -609,12 +609,17 @@
 #     print("Not palindrome")
 
 
-n=5
-i=0
-while i<=n:
-    print("5"*n+" "*i)
-    n=n-1
+# n=5
+# i=0
+# while i<=n:
+#     print("5"*n+" "*i)
+#     n=n-1
 
+n=5
+i=1
+for i in range(1,6):
+    print('5'*n+' '*i)
+    n=n-1
 
 
 
