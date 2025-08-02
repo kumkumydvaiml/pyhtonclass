@@ -583,19 +583,23 @@
 #     n-=1
 
 
-n=5
-i=0
-while i<n:
-    print(' '*i+'* '*(n-i))
-    i+=1
+# n=5
+# i=0
+# while i<n:
+#     print(' '*i+'* '*(n-i))
+#     i+=1
 
-n=5
-i=0
-while i<n:
-    print(' '*i+'* '*(n-i))
-    i+=1
-
-
+n=int(input("Enter a number :"))
+rev=0
+n2=n
+while n>0:
+    last_digit=n%10
+    rev=rev*10+last_digit
+    n=n//10
+if n2==rev:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
 
 
 
