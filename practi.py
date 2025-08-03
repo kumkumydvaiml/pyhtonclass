@@ -674,6 +674,13 @@
 #         max=i
 # print(max)
 
+li=[1,3,4,2,7,0]
+min=li[0]
+for i in li:
+    if i<li[0]:
+        min=i
+print(min)
+
 
 
 
