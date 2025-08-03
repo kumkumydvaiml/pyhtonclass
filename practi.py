@@ -637,17 +637,23 @@
 #     i+=1
 
 
-n=int(input("Enter a number :"))
-ans=n
-sum=0
-while n>0:
-    digit=n%10
-    sum=sum+digit**n
-    n=n//10
-if sum==ans:
-    print("Armstrong")
-else:
-    print("Not an Armstrong")
+# n=int(input("Enter a number :"))
+# ans=n
+# sum=0
+# while n>0:
+#     digit=n%10
+#     sum=sum+digit**n
+#     n=n//10
+# if sum==ans:
+#     print("Armstrong")
+# else:
+#     print("Not an Armstrong")
+
+m='kuki'
+count=0
+for ch in m:
+    count+=1
+print(count)
 
 
 
