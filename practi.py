@@ -649,11 +649,15 @@
 # else:
 #     print("Not an Armstrong")
 
-m='kuki'
-count=0
-for ch in m:
-    count+=1
-print(count)
+# m='kuki'
+# count=0
+# for ch in m:
+#     count+=1
+# print(count)
+
+m='lila'
+print(m[::-1])
+
 
 
 
