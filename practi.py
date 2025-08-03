@@ -661,11 +661,18 @@
 #     count+=1
 # print(count)
 
-li=[1,2,3,9]
-sum=0
+# li=[1,2,3,9]
+# sum=0
+# for i in li:
+#     sum+=i
+# print(sum)
+
+li=[9,8,3,4,10,90,300]
+max=li[0]
 for i in li:
-    sum+=i
-print(sum)
+    if i>li[0]:
+        max=i
+print(max)
 
 
 
