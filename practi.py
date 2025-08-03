@@ -630,11 +630,26 @@
 # print(count)
 
 
-n=5
-i=0
-while i<n:
-    print(' '*i+'* '*(n-i))
-    i+=1
+# n=5
+# i=0
+# while i<n:
+#     print(' '*i+'* '*(n-i))
+#     i+=1
+
+
+n=int(input("Enter a number :"))
+ans=n
+sum=0
+while n>0:
+    digit=n%10
+    sum=sum+digit**n
+    n=n//10
+if sum==ans:
+    print("Armstrong")
+else:
+    print("Not an Armstrong")
+
+
 
 
 
