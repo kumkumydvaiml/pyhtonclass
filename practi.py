@@ -667,12 +667,14 @@
 #     sum+=i
 # print(sum)
 
-li=[9,8,3,4,10,90,300]
-max=li[0]
-for i in li:
-    if i>li[0]:
-        max=i
-print(max)
+# li=[9,8,3,4,10,90]
+# max=li[0]
+# for i in li:
+#     if i>li[0]:
+#         max=i
+# print(max)
+
+
 
 
 
