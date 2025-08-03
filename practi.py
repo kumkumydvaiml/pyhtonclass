@@ -655,11 +655,17 @@
 #     count+=1
 # print(count)
 
-li=[1,2,3,5,6,9]
-count=0
-for _ in li:
-    count+=1
-print(count)
+# li=[1,2,3,5,6,9]
+# count=0
+# for _ in li:
+#     count+=1
+# print(count)
+
+li=[1,2,3,9]
+sum=0
+for i in li:
+    sum+=i
+print(sum)
 
 
 
