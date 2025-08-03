@@ -674,13 +674,21 @@
 #         max=i
 # print(max)
 
-li=[1,3,4,2,7,0]
-min=li[0]
-for i in li:
-    if i<li[0]:
-        min=i
-print(min)
+# li=[1,3,4,2,7,0]
+# min=li[0]
+# for i in li:
+#     if i<li[0]:
+#         min=i
+# print(min)
 
+
+# li=[1,3,4,3,5,3,5,3]
+# count=0
+# target=5
+# for _ in li:
+#     if target==_:
+#         count+=1
+# print(count)
 
 
 
