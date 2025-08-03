@@ -655,9 +655,11 @@
 #     count+=1
 # print(count)
 
-m='lila'
-print(m[::-1])
-
+li=[1,2,3,5,6,9]
+count=0
+for _ in li:
+    count+=1
+print(count)
 
 
 
