@@ -36,7 +36,7 @@ while i<=n:
     if i==4 or i==7:
         pass
     else:
-        print(i)  #break use to terminate any loop#continue #skip current iteration
+        print(i)  #break use to terminate any loop#continue skip current iteration
     i+=1
 
 n=int(input("Enter :"))
