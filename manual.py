@@ -27,9 +27,38 @@
 # for i in s:
 #     print(chr(ord(i)+1))
 #     s1=''.join([s1,chr(ord(i)+1)])
+#transfer statement
+#pass particular block ko skip
 
-s=input("Enter :")
-s1=''
-print(s1)
+n=int(input("Enter :"))
+i=1
+while i<=n:
+    if i==4 or i==7:
+        pass
+    else:
+        print(i)  #break use to terminate any loop#continue #skip current iteration
+    i+=1
+
+n=int(input("Enter :"))
+i=1
+while i<=n:
+    if i==4 or i==7:
+        i+=1
+        pass#continue
+    else:
+        print(i)  
+    i=i+1
+
+#pass- skip current block
+#continue- skip current iteration
+#break- terminate any loop
+
+print(print())
 
 
+x=print()
+print(x)
+print(x)
+
+
+print()
