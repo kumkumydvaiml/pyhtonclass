@@ -1,10 +1,3 @@
-# s="kumkum yadav"
-# result=""
-# for ch in s:
-#     if s!=" ":
-#         result+=ch
-# print(result)
-
 # n=5
 # i=1
 # while i<=n:
