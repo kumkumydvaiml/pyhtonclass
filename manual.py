@@ -17,3 +17,6 @@ for ch in n:
     if n>='a' or n<='z':
         n1+=chr(ord(ch)-32)
 print(n1)
+
+
+
