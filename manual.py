@@ -19,4 +19,12 @@ for ch in n:
 print(n1)
 
 
+s=input("Enter :")
+s1=''
+for ch in s:
+    if ch!=' ':
+        s1+=ch
+print(s1)
+
+
 
