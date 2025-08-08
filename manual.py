@@ -47,11 +47,18 @@
 #     count+=1
 # print(count)
 
-li=[1,2,3,4]
-sum=0
+# li=[1,2,3,4]
+# sum=0
+# for i in li:
+#     sum+=i
+# print(sum)
+
+li=[1,2,3,4,70,20]
+max=li[0]
 for i in li:
-    sum+=i
-print(sum)
+    if i>max:
+        max=i
+print(max)
 
 
 
