@@ -7,9 +7,14 @@ print(any((a<b,a>c)))
 
 
 n=int(input("Enter :"))
-i=1
-while i<=n:
+# i=1
+# while i<=n:
+#     print(i)
+#     i+=1
+# else:
+#     print("Thanks")
+
+for i in range(1,n+1):
     print(i)
-    i+=1
 else:
     print("Thanks")
