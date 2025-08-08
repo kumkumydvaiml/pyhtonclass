@@ -33,13 +33,17 @@
 #         s1+=ch
 # print(s1) 
 
-s=input("Enter :")
-s1=''
-for ch in s:
-    if ch>='a' or ch<='z':
-        s1+=chr(ord(ch)-32)
+# s=input("Enter :")
+# s1=''
+# for ch in s:
+#     if ch>='a' or ch<='z':
+#         s1+=chr(ord(ch)-32)
         
-print(s1)
+# print(s1)
+
+
+
+
 
 
 
