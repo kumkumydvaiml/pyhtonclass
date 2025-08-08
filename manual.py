@@ -53,13 +53,18 @@
 #     sum+=i
 # print(sum)
 
-li=[1,2,3,4,70,20]
-max=li[0]
-for i in li:
-    if i>max:
-        max=i
-print(max)
+# li=[1,2,3,4,70,20]
+# max=li[0]
+# for i in li:
+#     if i>max:
+#         max=i
+# print(max)
 
+li=[1,2,3,4,8,9,0]
+count=0
+for i in range(len(li)-1,-1,-1):
+    count+=1
+print(count)
 
 
 
