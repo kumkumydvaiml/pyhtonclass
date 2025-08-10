@@ -697,6 +697,15 @@ li2=['mata']
 print(li1+li2)
 
 
+li3=['i am kumkum yadav']
+li4=['laila']
+# print(li3+li4)
+print(li3*3)
+
+
+
+
+
 
 
 
