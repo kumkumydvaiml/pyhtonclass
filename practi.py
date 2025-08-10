@@ -703,8 +703,9 @@ li4=['laila']
 print(li3*3)
 
 
-
-
+tup1=(1,2,3,4)
+tup2=(3,56,6)
+print(tup1+tup2)
 
 
 
