@@ -710,7 +710,23 @@ print(type(tup1))
 
 # set1={1,2,3,4}
 # set2={2,3,4}
-# print(set1+set2)
+# print(set1+set2)   #error throw unsupported operand
+
+# dic1={7:'m'}
+# dic2={1:'age',
+#       2:'name'}
+# print(dic1+dic2) error throw unsupported operand
+
+
+li=[1,2,3,1,2,3,1,5,1]
+tar=3
+count=0
+for _ in li:
+    if _==tar:
+        count+=1
+print(count)
+
+
 
 
 
