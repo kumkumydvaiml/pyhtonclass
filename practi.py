@@ -691,9 +691,12 @@
 # print(count)
 
 
-li1=[1,2,3,4]
-li2=[3,4,5,6]
+li1=['kumkum']
+li2=['mata']
+# li2=[3,4,5,6]
 print(li1+li2)
+
+
 
 
 
