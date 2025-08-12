@@ -59,3 +59,12 @@ def add(*x):
     print(x)
     print(type(x))
 result=add(10,20,30,1,2,3,4)
+
+def add(*args):
+    sum=0
+    for i in args:
+        sum+=i
+    return(sum)
+result=add(10,20,30,1,2,3,4)
+
+
