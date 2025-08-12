@@ -66,5 +66,15 @@ def add(*args):
         sum+=i
     return(sum)
 result=add(10,20,30,1,2,3,4)
+print(result)
 
+
+def fun_name(x,y,z):
+    print(f'value of x is {x}')
+    print(f'value of x is {y}')
+    print(f'value of x is {z}')
+    
+fun_name(z=10,y=20,x=30)
+
+    
 
