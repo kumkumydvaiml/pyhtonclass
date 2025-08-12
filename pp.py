@@ -28,4 +28,11 @@
 #     i+=1
 
 
+s=input("Enter any name :")
+s1=''
+count=0
+for i in s:
+    count+=1
+print(f'total letter in {s} are {count}')
+
 
