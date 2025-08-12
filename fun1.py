@@ -70,11 +70,26 @@ print(result)
 
 
 def fun_name(x,y,z):
-    print(f'value of x is {x}')
-    print(f'value of x is {y}')
-    print(f'value of x is {z}')
+    return x+y+z
+    # print(f'value of x is {x}')
+    # print(f'value of x is {y}')
+    # print(f'value of x is {z}')
     
-fun_name(z=10,y=20,x=30)
+result=fun_name(z=10,y=20,x=30)
+print(result)
+
+
+#default keyword argument
+# def fun_name(x=0,y=0,z=0):
+#     return()
+
+
+#variable length keyword argument
+def fun_name(**n):
+    print(n)
+    print(type(n))
+result=fun_name(x=10,y=20,z=30,p=1,q=2,r=6)
+
 
     
 
