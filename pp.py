@@ -28,11 +28,17 @@
 #     i+=1
 
 
-s=input("Enter any name :")
-s1=''
-count=0
-for i in s:
-    count+=1
-print(f'total letter in {s} are {count}')
+# s=input("Enter any name :")
+# s1=''
+# count=0
+# for i in s:
+#     count+=1
+# print(f'total letter in {s} are {count}')
 
+k=input("Enter any sentence :")
+k1=''
+for i in k:
+    if i!=' ':
+        k1+=i
+print(k1)
 
