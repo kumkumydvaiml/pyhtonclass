@@ -35,10 +35,17 @@
 #     count+=1
 # print(f'total letter in {s} are {count}')
 
-k=input("Enter any sentence :")
-k1=''
-for i in k:
-    if i!=' ':
-        k1+=i
-print(k1)
+# k=input("Enter any sentence :")
+# k1=''
+# for i in k:
+#     if i!=' ':
+#         k1+=i
+# print(k1)
 
+z=input("Enter any sentence :")
+z1=''
+count=0
+for i in range(len(z)-1,-1,-1):
+    if i==' ':
+        count+=1
+print(count)
