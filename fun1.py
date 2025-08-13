@@ -84,12 +84,20 @@ print(result)
 #     return()
 
 
-#variable length keyword argument
-def fun_name(**n):
-    print(n)
-    print(type(n))
-result=fun_name(x=10,y=20,z=30,p=1,q=2,r=6)
+# #variable length keyword argument
+# def fun_name(**n):
+#     print(n)
+#     print(type(n))
+# result=fun_name(x=10,y=20,z=30,p=1,q=2,r=6)
 
+def display(**n):
+    for i in n:
+        for k,v in n.items():
+            print(f'key is {k} and value is {v}')
+x=eval(input("Enter any tuple :"))
+# print(x)
+result=display(*x)
+print(result)
 
 
 

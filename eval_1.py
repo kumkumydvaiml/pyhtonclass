@@ -13,6 +13,12 @@ for i in x:
         sum+=j
 print(sum)
 
+def add(*n):
+    sum=0
+    for i in x:
+        for j in i:
+            sum+=j
+print(sum)
 
 
 
