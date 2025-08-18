@@ -70,4 +70,13 @@
 #         s1+=i
 # print(s1)
 
+s=input("Enter any name :")
+vowels='aeiouAEIOU'
+s1=''
+for i in s:
+    if i not in vowels:
+        s1+=i
+print(s1)
+    
+
 
