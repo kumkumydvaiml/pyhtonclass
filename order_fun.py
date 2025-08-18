@@ -4,3 +4,4 @@ def squr(n):
 result=map(squr,l)
 print(result)
 print(tuple(result))
+print(list(result))
