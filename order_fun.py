@@ -29,9 +29,29 @@
 
 
 #filter()
+
+
+# l=[1,2,3,4,5]
+# def even_no(n):
+#     if n%2==0:
+#         return n
+# result=list(filter(even_no,l))
+# print(result)
+
+
+# l=[1,2,3,4,5]
+# def odd_no(n):
+#     if n%2!=0:
+#         return n
+# result=list(filter(even_no,l))
+# print(result)
+
+
 l=[1,2,3,4,5]
 def even_no(n):
     if n%2==0:
-        return n
-result=list(filter(even_no,l))
+        return 'even'
+    else:
+        return 'odd'
+result=list(map(even_no,l))
 print(result)
