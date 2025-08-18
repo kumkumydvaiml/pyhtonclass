@@ -42,10 +42,20 @@
 #         k1+=i
 # print(k1)
 
-z=input("Enter any sentence :")
-z1=''
-count=0
-for i in range(len(z)-1,-1,-1):
-    if i==' ':
-        count+=1
-print(count)
+# z=input("Enter any sentence :")
+# z1=''
+# count=0
+# for i in range(len(z)-1,-1,-1):
+#     if i==' ':
+#         count+=1
+# print(count)
+
+
+# s='i am kumkum'
+# s1=''
+# for i in s:
+#     if i!=" ":
+#         s1+=i
+# print(s1)
+
+
