@@ -70,13 +70,19 @@
 #         s1+=i
 # print(s1)
 
-s=input("Enter any name :")
-vowels='aeiouAEIOU'
-s1=''
-for i in s:
-    if i not in vowels:
-        s1+=i
-print(s1)
+# s=input("Enter any name :")
+# vowels='aeiouAEIOU'
+# s1=''
+# for i in s:
+#     if i not in vowels:
+#         s1+=i
+# print(s1)
     
 
-
+a=10
+b=20
+c=a+b
+b=c-b
+a=c-a
+print(a)
+print(b)
