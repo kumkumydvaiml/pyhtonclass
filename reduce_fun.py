@@ -29,3 +29,4 @@ def sum(x,y):
     return x+y
 result=functools.reduce(sum,l)
 print(result)
+
