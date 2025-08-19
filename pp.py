@@ -79,10 +79,28 @@
 # print(s1)
     
 
-a=10
-b=20
-c=a+b
-b=c-b
-a=c-a
-print(a)
-print(b)
+# a=10
+# b=20
+# c=a+b
+# b=c-b
+# a=c-a
+# print(a)
+# print(b)
+
+# h=int(input("Enter height :"))
+# b=int(input("Enter base :"))
+# tri=0.5*h*b
+# print(tri)
+
+
+# n=int(input("Enter :"))
+# i=1
+# while i<=n:
+#     print(i)
+#     i+=1
+
+n=input("enter :")
+i=1
+while n<=10:
+    print(n)
+    i+=1
