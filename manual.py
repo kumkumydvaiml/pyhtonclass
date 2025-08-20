@@ -68,6 +68,16 @@
 #         count+=1
 # print(f'count of {target} is {count}')
 
+# remove duplicate from list
+# li=[1,2,4,1,3,1]
+# li1=[]
+# for i in li:
+#     if i not in li1:
+#         li1.append(i)
+# print(li1)
+
+
+
 
 
 
