@@ -60,13 +60,13 @@
 #         max=i
 # print(max)
 
-li=[1,2,3,4,8,9,0]
-count=0
-for i in range(len(li)-1,-1,-1):
-    count+=1
-print(count)
-
-
+# li=[1,2,1,3,1,1]
+# target=1
+# count=0
+# for i in li:
+#     if i==target:
+#         count+=1
+# print(f'count of {target} is {count}')
 
 
 
