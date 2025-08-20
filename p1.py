@@ -20,3 +20,8 @@ print(x)
 print(z)
 print(y)
 
+a=b=c='kuki'
+print(a)
+print(b)
+print(c)
+
