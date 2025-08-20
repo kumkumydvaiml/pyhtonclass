@@ -11,6 +11,12 @@
 
 #grade=("C","D","A","A","B","B","A",)
 # print(grade.count("A"))
-grade=["C","D","A","A","B","B","A",]
-grade.sort()
-print(grade)
+# grade=["C","D","A","A","B","B","A",]
+# grade.sort()
+# print(grade)
+
+x,y,z='kuki','mohni','babita'
+print(x)
+print(z)
+print(y)
+
