@@ -74,6 +74,15 @@
 
 # List
 
+
+# reverse list
+li=[1,2,3,4,5]
+li1=[]
+for i in range(len(li)-1,-1,-1):
+    li1.append(li[i])
+print(li1)
+
+
 # li=[1,2,3,4]
 # count=0
 # for _ in li:
