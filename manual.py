@@ -127,11 +127,13 @@
 #     result.append(i)
 # print(result)
 
-# l1=[5,3,2,1,3]
-# l2=[4,2,9,3,1]
+
+# common values
+# l1=[5,3,2,1]
+# l2=[4,2,9,3,1,1]
 # result=[]
 # for i in l1:
-#     if i in l2:    #doubt
+#     if i in l2:    
 #         result.append(i)
 # print(result)
 
@@ -147,6 +149,8 @@
 #         odd.append(i)
 # print(f'even are {even}')
 # print(f'odd are {odd}')
+
+
 
 
 
