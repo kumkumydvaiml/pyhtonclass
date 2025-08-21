@@ -125,8 +125,6 @@ for i in l1:
     result.append(i)
 for i in l2:
     result.append(i)
-print(result)
-
 
 
 
