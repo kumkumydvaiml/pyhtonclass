@@ -151,6 +151,15 @@
 # print(f'odd are {odd}')
 
 
+l=[2,1,8,2,0,7,5]
+n=len(l)
+for i in range(n):
+    for j in range(i+1,n):
+        if l[i]>l[j]:
+            l[i],l[j]=l[j],l[i]
+print(l)
+
+
 
 
 
