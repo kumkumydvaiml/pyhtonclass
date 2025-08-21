@@ -74,13 +74,12 @@
 
 # List
 
-
 # reverse list
-li=[1,2,3,4,5]
-li1=[]
-for i in range(len(li)-1,-1,-1):
-    li1.append(li[i])
-print(li1)
+# li=[1,2,3,4,5]
+# li1=[]
+# for i in range(len(li)-1,-1,-1):
+#     li1.append(li[i])
+# print(li1)
 
 
 # li=[1,2,3,4]
@@ -118,6 +117,15 @@ print(li1)
 #         li1.append(i)
 # print(li1)
 
+#
+l1=[1,2,3,4]
+l2=[6,7,8]
+result=[]
+for i in l1:
+    result.append(i)
+for i in l2:
+    result.append(i)
+print(result)
 
 
 
