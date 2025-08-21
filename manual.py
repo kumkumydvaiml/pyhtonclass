@@ -117,23 +117,23 @@
 #         li1.append(i)
 # print(li1)
 
-#
+# combine two list
 # l1=[1,2,3,4]
 # l2=[6,7,8]
 # result=[]
-# for i in l1:               #doubt
+# for i in l1:
 #     result.append(i)
 # for i in l2:
 #     result.append(i)
 # print(result)
 
-l1=[5,3,2,1,3]
-l2=[4,2,9,3,1]
-result=[]
-for i in l1:
-    if i in l2:    #doubt
-        result.append(i)
-print(result)
+# l1=[5,3,2,1,3]
+# l2=[4,2,9,3,1]
+# result=[]
+# for i in l1:
+#     if i in l2:    #doubt
+#         result.append(i)
+# print(result)
 
 
 # l0=[1,2,4,9,3,5]
