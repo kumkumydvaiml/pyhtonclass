@@ -118,13 +118,37 @@
 # print(li1)
 
 #
-l1=[1,2,3,4]
-l2=[6,7,8]
+# l1=[1,2,3,4]
+# l2=[6,7,8]
+# result=[]
+# for i in l1:               #doubt
+#     result.append(i)
+# for i in l2:
+#     result.append(i)
+# print(result)
+
+l1=[5,3,2,1,3]
+l2=[4,2,9,3,1]
 result=[]
 for i in l1:
-    result.append(i)
-for i in l2:
-    result.append(i)
+    if i in l2:    #doubt
+        result.append(i)
+print(result)
+
+
+# l0=[1,2,4,9,3,5]
+# l1=[1,4,7]
+# even=[]
+# odd=[]
+# for i in l0:
+#     if i%2==0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# print(f'even are {even}')
+# print(f'odd are {odd}')
+
+
 
 
 
