@@ -76,15 +76,21 @@
 #         li1.append(i)
 # print(li1)
 
+n='kumkum'
+n1=''
+for i in n:
+    if i not in n1:
+        n1+=i
+print(n1)
 
-s='kumkum'
-fre={}
-for i in s:
-    if i in fre:
-        fre[i]+=1
-    else:
-        fre[i]=1
-print(fre)
+# s='kumkum'
+# fre={}
+# for i in s:
+#     if i in fre:
+#         fre[i]+=1
+#     else:
+#         fre[i]=1
+# print(fre)
 
 
 
