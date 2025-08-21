@@ -24,3 +24,13 @@ print(x)
 l=[1,2,3,4,5]
 x={i:i**2 for i in l}
 print(x)
+
+
+
+l=[1,2,3,4,5]
+x={i:i**2 if i%2==0 else i**3 for i in l }
+print(x)
+
+l=[2,2,3,4,5]
+x={i**2 if i%2==0 else i**3 for i in l }
+print(x)
