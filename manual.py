@@ -1,9 +1,35 @@
+# String
+
+# to reverse the string
 # s='kumkum'
 # s1=''
 # for i in range(len(s)-1,-1,-1):
 #     s1+=s[i]
 # print(s1)
 
+
+# remove duplicate character
+# n='kumkum'
+# n1=''
+# for i in n:
+#     if i not in n1:
+#         n1+=i
+# print(n1)
+
+
+# character frequency
+# s='kumkum'
+# fre={}
+# for i in s:
+#     if i in fre:
+#         fre[i]+=1
+#     else:
+#         fre[i]=1
+# print(fre)
+
+
+
+#To convert uppercase to lowercase
 # n=input("Enter :")
 # result=''
 # for ch in n:
@@ -11,6 +37,8 @@
 #         result+=chr(ord(ch)+32)
 # print(result)
 
+
+#To convert uppercase to lowercase
 # n=input("Enter :")
 # n1=''
 # for ch in n:
@@ -19,6 +47,7 @@
 # print(n1)
 
 
+#to remove spaces
 # s=input("Enter :")
 # s1=''
 # for ch in s:
@@ -26,6 +55,7 @@
 #         s1+=ch
 # print(s1)
 
+#to remove vowels
 # s=input("Enter :")
 # s1=''
 # for ch in s:
@@ -33,13 +63,16 @@
 #         s1+=ch
 # print(s1) 
 
+#
 # s=input("Enter :")
 # s1=''
 # for ch in s:
 #     if ch>='a' or ch<='z':
 #         s1+=chr(ord(ch)-32)
-        
 # print(s1)
+
+
+# List
 
 # li=[1,2,3,4]
 # count=0
@@ -76,21 +109,7 @@
 #         li1.append(i)
 # print(li1)
 
-n='kumkum'
-n1=''
-for i in n:
-    if i not in n1:
-        n1+=i
-print(n1)
 
-# s='kumkum'
-# fre={}
-# for i in s:
-#     if i in fre:
-#         fre[i]+=1
-#     else:
-#         fre[i]=1
-# print(fre)
 
 
 
