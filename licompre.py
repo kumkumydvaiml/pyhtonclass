@@ -11,3 +11,16 @@ print(x)
 l=[1,2,3,4,5]
 x=[i**2 for i in l if i%2==0]
 print(x)
+
+l=[1,2,3,4,5]
+x=['even' if i%2==0 else 'odd' for i in l]
+print(x)
+
+t=[1,2,3,4,5]
+x=tuple('even' if i%2==0 else 'odd' for i in l)
+print(x)
+
+
+l=[1,2,3,4,5]
+x={i:i**2 for i in l}
+print(x)
