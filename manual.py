@@ -130,7 +130,7 @@
 # print(result)
 
 
-# common values
+# common elements
 # l1=[5,3,2,1]
 # l2=[4,2,9,3,1,1]
 # result=[]
@@ -140,6 +140,7 @@
 # print(result)
 
 
+# find even and odd elemnet
 # l0=[1,2,4,9,3,5]
 # l1=[1,4,7]
 # even=[]
@@ -163,14 +164,49 @@
 # print(l)
 
 
-l1=eval(input("Enter a list1 :"))
-l2=eval(input("Enter a list2 :"))
-l3=[]
-for i in l1:
-    l3.append(i)
-for j in l2:
-    l3.append(j)
-print(l3)
+# combine two list
+# l1=eval(input("Enter a list1 :"))
+# l2=eval(input("Enter a list2 :"))
+# l3=[]
+# for i in l1:
+#     l3.append(i)
+# for j in l2:
+#     l3.append(j)
+# print(l3)
+
+
+# l1=eval(input("Enter list1 :"))
+# l2=eval(input("Enter list2 :"))
+
+# if l1==l2:
+#     print('yes {l1} and {l2} are equal')
+# else:
+#     print('No {l1} and {l2} are not equal')
+
+
+# to convet list to string
+# l=eval(input("Enter list :"))
+# s=''
+# for i in l:# input kisme lena hai 
+#     s+=i
+# print(s)
+
+
+# to conver string  to list
+# n=eval(input("Enter :"))
+# l=[]
+# for i in n:
+#     l.append(i)
+# print(l)
+
+
+
+
+
+
+
+
+
 
 
 
