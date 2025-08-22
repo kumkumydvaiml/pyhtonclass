@@ -21,5 +21,13 @@
 # from first import x
 # print(x)
 
-import first
-print(first.x)
+# import first
+# print(first.x)
+
+
+# import calculator1 as c
+# c.add()
+
+
+from calculator1 import sub as s
+s()

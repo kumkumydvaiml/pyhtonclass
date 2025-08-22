@@ -81,19 +81,21 @@
 #     li1.append(li[i])
 # print(li1)
 
-
+#count elements in list
 # li=[1,2,3,4]
 # count=0
 # for _ in li:
 #     count+=1
 # print(count)
 
+# sum of list elements
 # li=[1,2,3,4]
 # sum=0
 # for i in li:
 #     sum+=i
 # print(sum)
 
+# find max element in list
 # li=[1,2,3,4,70,20]
 # max=li[0]
 # for i in li:
@@ -151,13 +153,26 @@
 # print(f'odd are {odd}')
 
 
-l=[2,1,8,2,0,7,5]
-n=len(l)
-for i in range(n):
-    for j in range(i+1,n):
-        if l[i]>l[j]:
-            l[i],l[j]=l[j],l[i]
-print(l)
+# sort list in ascending
+# l=[2,1,8,2,0,7,5]
+# n=len(l)
+# for i in range(n):
+#     for j in range(i+1,n):
+#         if l[i]>l[j]:
+#             l[i],l[j]=l[j],l[i]
+# print(l)
+
+
+l1=eval(input("Enter a list1 :"))
+l2=eval(input("Enter a list2 :"))
+l3=[]
+for i in l1:
+    l3.append(i)
+for j in l2:
+    l3.append(j)
+print(l3)
+
+
 
 
 
