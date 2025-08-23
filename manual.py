@@ -246,13 +246,21 @@
 
 
 # find index of element
-t=eval(input("Enter any tuple :"))
-idx=int(input("Enter which element index do you find :"))
-found=()
-for i in t:
-    if idx==i:
-        found=t[i]
-print(found)
+# t=eval(input("Enter any tuple :"))
+# idx=int(input("Enter which element index do you find :"))
+# found=()
+# for i in t:
+#     if idx==i:
+#         found=t[i]
+# print(found)
+
+
+# reverse the tuple
+# t=eval(input("Enter any tuple :"))
+# rev=()
+# for i in range(len(t)-1,-1,-1):
+#     rev+=(t[i],)
+# print(rev)
 
 
 
