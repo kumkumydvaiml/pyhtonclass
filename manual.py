@@ -228,12 +228,32 @@
 # print(f'maximum element in {t} is {max}')
 
 
-t=eval(input("enter any tuple :"))
-min=t[0]
+# find minimum element in tuple
+# t=eval(input("enter any tuple :"))
+# min=t[0]
+# for i in t:
+#     if i<t[0]:
+#         min=i
+# print(f'minimum element in {t} is {min}')
+
+
+# sum of tuple element
+# t=eval(input("Enter any tuple :"))
+# sum=0
+# for i in t:
+#     sum+=i
+# print(f'Sum of {t} is {sum}')
+
+
+# find index of element
+t=eval(input("Enter any tuple :"))
+idx=int(input("Enter which element index do you find :"))
+found=()
 for i in t:
-    if i<t[0]:
-        min=i
-print(f'minimum element in {t} is {min}')
+    if idx==i:
+        found=t[i]
+print(found)
+
 
 
 
