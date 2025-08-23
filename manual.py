@@ -200,6 +200,31 @@
 # print(l)
 
 
+# Tuple
+
+# total element in tuple
+# t=eval(input("enter any tuple :"))
+# count=0
+# for _ in t:
+#     count+=1
+# print(f' total element in {t} are {count}')
+
+
+# t=eval(input("enter any tuple :"))
+# tar=eval(input("Enter target :"))
+# count=0
+# for i in t:
+#     if i==tar:
+#         count+=1
+# print(f'total {tar} in {t} are {count}')
+
+
+t=eval(input("enter any tuple :"))
+max=t[0]
+for i in t:
+    if i>t[0]:
+        max=i
+print(f'maximum element in {t} is {max}')
 
 
 
