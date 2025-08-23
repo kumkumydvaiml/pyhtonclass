@@ -219,12 +219,16 @@
 # print(f'total {tar} in {t} are {count}')
 
 
-t=eval(input("enter any tuple :"))
-max=t[0]
-for i in t:
-    if i>t[0]:
-        max=i
-print(f'maximum element in {t} is {max}')
+# find max element in tuple
+# t=eval(input("enter any tuple :"))
+# max=t[0]
+# for i in t:
+#     if i>t[0]:
+#         max=i
+# print(f'maximum element in {t} is {max}')
+
+
+
 
 
 
