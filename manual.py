@@ -264,6 +264,19 @@
 
 
 
+# convert tuple to list
+# t=eval(input("Enter any tuple :"))
+# li=[]
+# for i in t:
+#     li.append(i)
+# print(li)
+
+
+
+
+
+
+
 
 
 
