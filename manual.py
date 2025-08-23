@@ -228,6 +228,13 @@
 # print(f'maximum element in {t} is {max}')
 
 
+t=eval(input("enter any tuple :"))
+min=t[0]
+for i in t:
+    if i<t[0]:
+        min=i
+print(f'minimum element in {t} is {min}')
+
 
 
 
