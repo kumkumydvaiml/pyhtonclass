@@ -272,6 +272,16 @@
 # print(li)
 
 
+# convert list to tuple
+li=eval(input("Enter any list :"))
+t=()
+for i in li:
+    t+=i
+print(t)
+
+
+
+
 
 
 
