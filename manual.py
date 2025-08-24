@@ -273,11 +273,89 @@
 
 
 # convert list to tuple
-li=eval(input("Enter any list :"))
-t=()
-for i in li:
-    t+=i
-print(t)
+# li=eval(input("Enter any list :"))
+# t=()
+# for i in li:
+#     t+=(i,)
+# print(t)
+
+
+
+# Dictionary
+
+# count elemnent in dict
+# d=eval(input("Enter dictionary :"))
+# count=0
+# for i in d:
+#     count+=1
+# print(count)
+
+
+# to find key in dict
+# dic=eval(input("Enter dictionary :"))
+# key=[]
+# for i in dic:  python tutor par chalana hai
+#     key.append(i)
+# print(key)
+
+# merge two dict
+# d1=eval(input("Enter dictionary 2 :"))
+# d2=eval(input("Enter dictionary 1 :"))
+# result={}
+# for i in d1:
+#     result[i]=d1[i]
+# for j in d2:
+#     result[j]=d2[j]
+# print(result)
+
+def dic(d1,d2):
+    merge={}
+    for i in d1:
+        merge[i]=d1[i]
+    for j in d2:
+        merge[j]=d2[j]
+    return merge
+
+
+# Example 8: Write a program to add 5 in each elements in given list. [10,20,30,40,50]
+# l1=eval(input("Enter a list :"))
+# l2=[]
+# for i in l1:
+#     i=i+5
+#     l2.append(i)
+# print(l2)
+
+
+# t1=eval(input("Enter a tuple :"))
+# t2=()
+# for i in t1:
+#     i=i+5  # append kaam nahi karta kya tuple me
+#     t2=t1[i]
+# print(t2) error
+
+
+# s=(input("Enter string :"))
+# li=[]
+# for i in s:
+#     li.append(i)
+# print(li)
+
+# Example 7: Write a program to find how many vowels and consonants are present in strings.
+
+vowel='aeiou'
+consonant='qwrtyplkjhgfdszxcvbnm'
+n=input("Enter any :")
+for i in n:
+    if n in vowel:
+        count+=1 
+
+
+
+
+
+
+
+
 
 
 
