@@ -1,4 +1,4 @@
-f=open('n2.txt','x')
+f=open('n2.txt','x+')
 print(f.name)
 print(f.mode)
 print(f.encoding)
