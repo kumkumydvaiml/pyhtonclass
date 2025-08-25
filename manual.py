@@ -342,12 +342,12 @@ def dic(d1,d2):
 
 # Example 7: Write a program to find how many vowels and consonants are present in strings.
 
-vowel='aeiou'
-consonant='qwrtyplkjhgfdszxcvbnm'
-n=input("Enter any :")
-for i in n:
-    if n in vowel:
-        count+=1 
+# vowel='aeiou'
+# consonant='qwrtyplkjhgfdszxcvbnm'
+# n=input("Enter any :")
+# for i in n:
+#     if n in vowel:
+#         count+=1 
 
 
 
