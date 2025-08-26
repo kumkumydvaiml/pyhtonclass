@@ -1,0 +1,73 @@
+# Example 1: Write a program to display n natural numbers. (In Horizontal-1,2,3,4,5…….. )
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     print(i,end=" ")
+
+
+#  Example 2: Write a program to calculate the sum of numbers. 
+# n=int(input("Enter a number :"))
+# sum=0
+# for i in range(1,n+1):
+#     sum=sum+i
+# print(f'sum of all {n} is {sum}')
+
+
+# Example 3: Write a program to find even no. (2,4,6,8,….) 
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     if i%2==0:
+#         print(i)
+
+# Example 4: Write a program find odd no.(1,3,5,7,9,……)
+# n=int(input("Enter a number :"))
+# for  i in range(1,n+1):
+#     if i%2!=0:
+#         print(f'Odd number are {i}')
+
+
+#  Example 5: Write a program to find factorial of given no.
+# n=int(input("Enter a number :"))
+# fact=1
+# for i in range(1,n+1):
+#     fact=fact*i
+# print(f'factorial of {n} are {fact}')
+ 
+# Example 6: Write a program to print your names ten times. 
+# name=input("Enter your name :")
+# for i in range(name):
+
+
+# Example 7: Write a program to find how many vowels and consonants are present in strings.
+# n=input("Enter any word :")
+# vowels='aeiou'
+# consonant='qwrtypsdfghjklzxcvbnm'
+# count=0
+# cont=0
+# for i in n:
+#     if i in vowels:
+#         count+=1
+#         print(f'total vowels in {n} are {count}')
+#     elif i in consonant:
+#         cont+1
+#     print(f'total consonant in {n} are {cont}')
+
+
+# Example 8: Write a program to add 5 in each elements in given list. [10,20,30,40,50]
+# l1=eval(input("Enter a list :"))
+# l2=[]
+# for i in l1:
+#     i=i+5
+#     l2.append(i)
+# print(l2)
+
+
+
+#  Example 9: Write a program to add 5 in each elements in given tuple. (10,20,30,40,50)
+# 
+#  
+# Example 10: Write a program to create a list from given string.
+# s=eval(input("Enter any string :"))
+# li=[]
+# for i in s:
+#     li.append(i)
+# print(li)

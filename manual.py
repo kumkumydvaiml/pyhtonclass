@@ -317,13 +317,6 @@ def dic(d1,d2):
     return merge
 
 
-# Example 8: Write a program to add 5 in each elements in given list. [10,20,30,40,50]
-# l1=eval(input("Enter a list :"))
-# l2=[]
-# for i in l1:
-#     i=i+5
-#     l2.append(i)
-# print(l2)
 
 
 # t1=eval(input("Enter a tuple :"))
@@ -334,11 +327,6 @@ def dic(d1,d2):
 # print(t2) error
 
 
-# s=(input("Enter string :"))
-# li=[]
-# for i in s:
-#     li.append(i)
-# print(li)
 
 # Example 7: Write a program to find how many vowels and consonants are present in strings.
 
