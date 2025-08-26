@@ -134,14 +134,22 @@
 # Example 13: Python program to get the Fibonacci series. (0,1,1,2,3,5,8,13,21……………..)
 # Example 14: Python program to find the factorial of a given number.
 # Example 15: Python program that accepts a string and calculates the number of digits and letters.
-s=input("Enter string :")
-count=0
-for i in s:
-    count+=1
-print(f'total letters in {s} is {count}')
+# s=input("Enter string :")
+# count=0
+# for i in s:
+#     count+=1
+# print(f'total letters in {s} is {count}')
 
 # Example 16: Write a Python program that iterates the integers from 1 to 25.
 # Example 17: Python program to check the validity of password input by users.
+pwd=input("Enter your password :")
+pwd2='cybrom@01'
+if pwd==pwd2:
+    print("Welcome")
+else:
+    print("try again !")
+
 # Example 18: Python program to convert the month name to a number of days.
+month=input("Enter month name :")
 
 
