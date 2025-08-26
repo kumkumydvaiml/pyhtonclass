@@ -126,3 +126,22 @@
 # print(count)
 
 
+# Example 8: .(madam=madam)
+# Example 9: Python program that accepts a word from the user and reverses it.
+# Example 10: Python program to check if a given number is an Armstrong number. (153=1**3+5**3+3**3)
+# Example 11: Python program to count the number of even and odd numbers from a series of numbers.
+# Example 12: Python program to display all numbers within a range except the prime numbers.
+# Example 13: Python program to get the Fibonacci series. (0,1,1,2,3,5,8,13,21……………..)
+# Example 14: Python program to find the factorial of a given number.
+# Example 15: Python program that accepts a string and calculates the number of digits and letters.
+s=input("Enter string :")
+count=0
+for i in s:
+    count+=1
+print(f'total letters in {s} is {count}')
+
+# Example 16: Write a Python program that iterates the integers from 1 to 25.
+# Example 17: Python program to check the validity of password input by users.
+# Example 18: Python program to convert the month name to a number of days.
+
+
