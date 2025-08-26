@@ -41,15 +41,18 @@
 # n=input("Enter any word :")
 # vowels='aeiou'
 # consonant='qwrtypsdfghjklzxcvbnm'
-# count=0
+# count=0 
 # cont=0
+
 # for i in n:
 #     if i in vowels:
 #         count+=1
-#         print(f'total vowels in {n} are {count}')
-#     elif i in consonant:
-#         cont+1
-#     print(f'total consonant in {n} are {cont}')
+# print(f'total vowels in {n} are {count}')
+# for j in n:
+#     if j in consonant:
+#         cont+=1
+# print(f'total consonant in {n} are {cont}')
+
 
 
 # Example 8: Write a program to add 5 in each elements in given list. [10,20,30,40,50]
@@ -63,11 +66,63 @@
 
 
 #  Example 9: Write a program to add 5 in each elements in given tuple. (10,20,30,40,50)
-# 
-#  
+# tup=eval(input("Enter any tuple :"))
+# tup2=()
+# for i in tup:
+#     i=i+5
+
 # Example 10: Write a program to create a list from given string.
 # s=eval(input("Enter any string :"))
 # li=[]
 # for i in s:
 #     li.append(i)
 # print(li)
+
+
+# Example 1: Print the first 10 natural numbers using for loop.
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     print(i)
+
+
+# Example 2: Python program to print all the even numbers within the given range.
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     if i%2==0:
+#         print("Even numbers is",i)
+
+
+# Example 3: Python program to calculate the sum of all numbers from 1 to a given number.
+# n=int(input("Enter a number :"))
+# sum=0
+# for i in range(1,n+1):
+#     sum+=i
+# print(sum)
+
+# Example 4: Python program to calculate the sum of all the odd numbers within the given range.
+# n=int(input("Enter a number :"))
+# sum=0
+# for i in range(1,n+1):
+#     if i%2!=0:
+#         sum+=i
+# print(f'sum of odd numbers is {sum}')
+
+# Example 5: Python program to print a multiplication table of a given number
+# n=int(input("Enter a number :"))
+# for i in range(1,11):
+#     print(n*i)
+
+# Example 6: Python program to display numbers from a list using a for loop.
+
+
+
+# Example 7: Python program to count the total number of digits in a number.
+# n=int(input("Enter any number :"))
+# count=0
+# while n>0:
+#     digit=n%10
+#     count+=1
+#     n=n//10
+# print(count)
+
+
