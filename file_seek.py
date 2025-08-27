@@ -49,3 +49,5 @@ with open('n1.txt','rb') as f: #b stands for binary
     print(f.tell())
 
 
+
+
