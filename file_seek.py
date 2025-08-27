@@ -45,4 +45,7 @@ with open('n1.txt','rb') as f: #b stands for binary
     print(f.tell())
     f.seek(-5,1)
     print(f.tell())
+    f.seek(-5,2)
+    print(f.tell())
+
 
