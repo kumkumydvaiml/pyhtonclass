@@ -21,10 +21,28 @@ print(f.closed)
 #     print(f.tell())
 
 
-with open('n1.txt','r') as f:
+# with open('n1.txt','r') as f:
+#     print(f.tell())
+#     data=f.read(5)
+#     print(data)
+#     print(f.tell()) # cursor current postion find with the help of tell()
+
+# seek() method use to change position of curser
+#syntax=seek()
+
+
+with open('n1.txt','rb') as f: #b stands for binary
     print(f.tell())
     data=f.read(5)
-    print(data)
-    print(f.tell()) # cursor current postion find with the help of tell()
-    
-    
+    print(f.tell())
+    f.seek(0)
+    print(f.tell())
+    data=f.read(10)
+    print(f.tell())
+    f.seek(5,0)
+    print(f.tell())
+    f.seek(2,1)
+    print(f.tell())
+    f.seek(-5,1)
+    print(f.tell())
+
