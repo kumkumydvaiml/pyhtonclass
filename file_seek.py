@@ -14,8 +14,17 @@ print(f.closed)
 #     print(f.tell())
     
 
-with open('n6.txt','x') as f:
+# with open('n6.txt','x') as f:
+#     print(f.tell())
+
+# with open('n1.txt','r') as f:
+#     print(f.tell())
+
+
+with open('n1.txt','r') as f:
     print(f.tell())
-
-
+    data=f.read(5)
+    print(data)
+    print(f.tell()) # cursor current postion find with the help of tell()
+    
     
