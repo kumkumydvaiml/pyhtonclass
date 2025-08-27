@@ -142,14 +142,48 @@
 
 # Example 16: Write a Python program that iterates the integers from 1 to 25.
 # Example 17: Python program to check the validity of password input by users.
-pwd=input("Enter your password :")
-pwd2='cybrom@01'
-if pwd==pwd2:
-    print("Welcome")
-else:
-    print("try again !")
+# pwd=input("Enter your password :")
+# pwd2='cybrom@01'
+# if pwd==pwd2:
+#     print("Welcome")
+# else:
+#     print("try again !")
 
 # Example 18: Python program to convert the month name to a number of days.
-month=input("Enter month name :")
+# month=input("Enter month name :")
+
+
+
+# IF-ELIF-ELSE STATEMENT EXAMPLES
+# Example 1: Write a program to check given no is positive. (Only if-statement)
+# n=int(input("Enter any number :"))
+# if n>0:
+#     print(f'{n} is positive number.')
+# Example 2: Write a program to check given no is positive or negative. (Only if-else statement)
+# n=int(input("Enter any number :"))
+# if n>0:
+#     print(f'{n} is positive number.')
+# else:
+#     print(f'{n} is negative.')
+
+# Example 3: Write a program to check given no is positive, negative or Zero.(Only if-elif-else statement)
+# n=int(input("Enter any number :"))
+# if n>0:
+#     print(f'{n} is positive number.')
+# elif n<0:
+#     print(f'{n} is negative.')
+# else:
+#     print('zero')
+
+# Example 4: Write a program to swap two variables without using third variable. 
+
+
+# Example 5: Write a program to swap two variables using third variable.
+# Example 6: Write a program to swap two variables using using Addition and Subtraction. 
+# Example 9: Write a program to find squre root of given no. 
+# Example 10: Write a program to find largest no among the three inputs numbers. 
+# Example 11: Write a program to find area of triangle. (1/2* hight*base) 
+# Example 12: Write a program to find area of square.
+# Example 13: Write a program to find given year is leep year or not.
 
 

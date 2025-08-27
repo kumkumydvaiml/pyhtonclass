@@ -48,6 +48,8 @@ with open('n1.txt','rb') as f: #b stands for binary
     f.seek(-5,2)
     print(f.tell())
 
+    
+
 
 
 
