@@ -26,16 +26,27 @@
 # pickle.load(f)
 # pickle.load(f)
 
-import pickle
-l=[]
-with open('n1.pkl','rb+') as f:
-    while True:
-        try:    
-            data=pickle.load(f)
-            l.append(data)
-        except EOFError:
-            break
-print(l)
+# import pickle
+# l=[]
+# with open('n1.pkl','rb+') as f:
+#     while True:
+#         try:    
+#             data=pickle.load(f)
+#             l.append(data)
+#         except EOFError:
+#             break
+# print(l)
+
+
+def outer_fun(fun_name):
+    def inner_fun():
+        print('from inner function')
+        x=fun_name()
+    return inner_fun
+def new():
+    print('from new function')
+res=outer_fun(new)
+res()
 
 
 
