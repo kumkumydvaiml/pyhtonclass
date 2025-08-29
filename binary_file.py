@@ -23,5 +23,19 @@
 # print(data)
 # f.close()
 
+# pickle.load(f)
+# pickle.load(f)
+
+import pickle
+l=[]
+with open('n1.pkl','rb+') as f:
+    while True:
+        try:    
+            data=pickle.load(f)
+            l.append(data)
+        except EOFError:
+            break
+print(l)
+
 
 
