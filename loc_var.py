@@ -16,3 +16,9 @@ def new():
 new()
 print(x)
 
+s="kumkum"
+s1=""
+for i in range((s)-1,-1,-1):
+    s1+=s[i]
+print(s1)
+
