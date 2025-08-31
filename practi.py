@@ -732,13 +732,15 @@ print(type(tup1))
 #     li1+=li[i]
 # print(li1)
 
-li='pythonnn'
-li1=[]
+# li='pythonnn'
+# li1=[]
 
-for i in li:
-    if i not in li1:
-        li1+=i
-print(li1)
+# for i in li:
+#     if i not in li1:
+#         li1+=i
+# print(li1)
+
+
 
 
 
