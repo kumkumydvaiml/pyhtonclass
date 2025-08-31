@@ -740,13 +740,17 @@ print(type(tup1))
 #         li1+=i
 # print(li1)
 
-def sum(a,b):
-    return a+b
-n1=int(input("Enter a number :"))
-n2=int(input("Enter a number :"))
 
-ans=sum(n1,n2)
+def sub(a,b):
+    return a-b
+n1=int(input("Enter number 1 :"))
+n2=int(input("Enter number 2 :"))
+
+ans=sub(n1,n2)
 print(ans)
+
+
+
 
 
 
