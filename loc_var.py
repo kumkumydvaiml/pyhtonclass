@@ -51,5 +51,11 @@ for i in a:
 print(a1)
 
 
+aa=input("Enter a word :")
+aa1=""
+for i in range(len(aa)-1,-1,-1):
+    aa1+=aa[i]
+print(aa1)
+
 
 
