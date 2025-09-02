@@ -11,3 +11,6 @@ obj=New
 print(id(New))
 print(id(obj))
 
+class New:
+    "for demo purpose"
+obj=New
