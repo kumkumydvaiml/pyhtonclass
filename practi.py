@@ -760,18 +760,13 @@
 # print(sum)
 
 
-def cal_mul(a,b):
-    return a*b
-b=int(input("Enter number 1:"))
-a=int(input("Enter number 2:"))
-
-sum=cal_mul(a,b)
-print(sum)
-
-
-
-
-
+def count_li(n):
+    return count
+n=eval(input("Enter a list :"))
+count=0
+for i in n:
+    count+=1
+print(count)
 
 
 
