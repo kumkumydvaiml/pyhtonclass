@@ -691,22 +691,22 @@
 # print(count)
 
 
-li1=['kumkum']
-li2=['mata']
-# li2=[3,4,5,6]
-print(li1+li2)
+# li1=['kumkum']
+# li2=['mata']
+# # li2=[3,4,5,6]
+# print(li1+li2)
 
 
-li3=['i am kumkum yadav']
-li4=['laila']
-# print(li3+li4)
-print(li3*3)
+# li3=['i am kumkum yadav']
+# li4=['laila']
+# # print(li3+li4)
+# print(li3*3)
 
 
-tup1=(1,2,3,4)
-tup2=(3,56,6)
-print(tup1+tup2)
-print(type(tup1))
+# tup1=(1,2,3,4)
+# tup2=(3,56,6)
+# print(tup1+tup2)
+# print(type(tup1))
 
 # set1={1,2,3,4}
 # set2={2,3,4}
@@ -741,32 +741,32 @@ print(type(tup1))
 # print(li1)
 
 
-def sub(a,b):
-    return a-b
-n1=int(input("Enter number 1 :"))
-n2=int(input("Enter number 2 :"))
+# def sub(a,b):
+#     return a-b
+# n1=int(input("Enter number 1 :"))
+# n2=int(input("Enter number 2 :"))
 
-ans=sub(n1,n2)
-print(ans)
-
-
+# ans=sub(n1,n2)
+# print(ans)
 
 
 
+# def cal_mul(a,b):
+#     return a*b
+# n1=int(input("Enter number 1:"))
+# n2=int(input("Enter number 2:"))
+
+# sum=cal_mul(n1,n2)
+# print(sum)
 
 
+def cal_mul(a,b):
+    return a*b
+b=int(input("Enter number 1:"))
+a=int(input("Enter number 2:"))
 
-
-
-
-
-
-
-
-
-
-
-
+sum=cal_mul(a,b)
+print(sum)
 
 
 
