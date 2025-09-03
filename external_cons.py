@@ -26,3 +26,16 @@ class Student:
         print(self.g)
 obj=Student("Neeraj","10th")
 obj.account()
+
+
+class Marks:
+    def __init__(self,english,social):
+        self.e=english
+        self.s=social
+        print(id(self))
+        print(id(obj))#
+        print(self.e)
+        print(self.s)
+        print(id(Marks))
+obj=Marks(89,97)
+
