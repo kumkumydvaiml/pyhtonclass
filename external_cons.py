@@ -10,5 +10,6 @@ y=Student()
 class Student:
     def __init__(self):
         print("External constructor called")
+        print(id(self))
 x=Student()
-print(id(x),(id(Student)))
+print(id(x),id(Student))
