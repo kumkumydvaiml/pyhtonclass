@@ -32,6 +32,15 @@ class Marks:
     def __init__(self,english,social):
         self.e=english
         self.s=social
+        print(self.e)
+        print(self.s)
+obj=Marks(89,97)
+
+
+class Marks:
+    def __init__(self,english,social):
+        self.e=english
+        self.s=social
         print(id(self))
         print(id(obj))#
         print(self.e)
