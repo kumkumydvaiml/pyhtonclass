@@ -42,9 +42,32 @@ class Marks:
         self.e=english
         self.s=social
         print(id(self))
-        print(id(obj))#
+        
         print(self.e)
         print(self.s)
         print(id(Marks))
 obj=Marks(89,97)
+print(id(obj))#
 
+
+
+class Student:
+    def __init__(self):
+        print("External Constructor called")
+obj=Student
+obj=Student()
+
+obj.__init__()
+
+
+
+# multiple constructor par call karne par last wala hi call hoga
+class Student:
+    def __init__(self):
+        print("External ")
+    def __init__(self):
+        print("Constructor 2")
+    def __init__(self):
+        print("constructor3")
+obj=Student()
+obj.__init__()
