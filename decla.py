@@ -11,3 +11,14 @@ obj=Student('Neeraj',37,10)
 obj.add_new(12345)
 obj.e='Neeraj@gmail.com'#declaration
 obj.show_detail()
+
+# cd .assigment
+
+class Student:
+    def __init__(self,name):
+        self.n=name
+    def show(self):
+        print(self.n)
+obj=Student("Neeraj")
+obj.show()
+print(obj.n)
