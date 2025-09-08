@@ -12,3 +12,5 @@ class Student:
         print(self)
 obj=Student()
 obj.show("neeraj")
+
+# function or function relation test on sat
