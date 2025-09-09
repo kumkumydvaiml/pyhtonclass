@@ -33,18 +33,38 @@
 #     print("Not a palindrom")
 
 
-n=input("Enter string :")
-target='k'
-count=0
-for i in n:
-    if i in target:
-        count+=1
-print(count)
+# n=input("Enter string :")
+# target='k'
+# count=0
+# for i in n:
+#     if i in target:
+#         count+=1
+# print(count)
 
 
-string=input("Enter atring :")
-result=""
-for i in string:
-    if 'A'<=i <='Z':
-        result+=chr(ord(i)+32)
+
+# string=input("Enter atring :")
+# result=""
+# for i in string:
+#     if 'A'<=i <='Z':
+#         result+=chr(ord(i)+32)
+# print(result)
+
+
+
+def lower(string):
+    result = ""
+    for i in string:
+        if 'A' <= i <= 'Z':      # agar uppercase hai
+            result += chr(ord(i) + 32)   # lowercase me convert karo
+        else:
+            result += i           # otherwise same character add karo
+    return result
+
+string = input("Enter a string: ")
+result = lower(string)
 print(result)
+
+        
+
+        
