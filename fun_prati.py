@@ -20,14 +20,23 @@
 
 
 
-def rev(s):
-    s1=""
-    for i in range(len(s)-1,-1,-1):
-        s1+=s[i]
-    return s1
-s=input("Enter a string :")
-result=rev(s)
-if s==result:
-    print("Palindrom")
-else:
-    print("Not a palindrom")
+# def rev(s):
+#     s1=""
+#     for i in range(len(s)-1,-1,-1):
+#         s1+=s[i]
+#     return s1
+# s=input("Enter a string :")
+# result=rev(s)
+# if s==result:
+#     print("Palindrom")
+# else:
+#     print("Not a palindrom")
+
+
+n=input("Enter string :")
+target='k'
+count=0
+for i in n:
+    if i in target:
+        count+=1
+print(count)
