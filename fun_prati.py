@@ -80,15 +80,18 @@
 # print(result)
 
 
-def space(sentence):
-    result=""
-    for i in sentence:
-        if i!=" ":
-            result+=i
-    return result
-sentence=input("Enter any sentence :")
-result=space(sentence)
-print(result)
+# def space(sentence):
+#     result=""
+#     for i in sentence:
+#         if i!=" ":
+#             result+=i
+#     return result
+# sentence=input("Enter any sentence :")
+# result=space(sentence)
+# print(result)
+
+
+
 
 
 
