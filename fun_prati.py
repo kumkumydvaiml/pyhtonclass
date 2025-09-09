@@ -65,7 +65,18 @@
 # result = lower(string)
 # print(result)
 
-        
+
+def upper(string):
+    result=""
+    for i in string:
+        if 'a'<=i<='z':
+            result=chr(ord(i)-32)
+        else:
+            result+=i
+    return result
+string=input("Enter any string :")
+result=upper(string)
+print(result)        
 
 
         
