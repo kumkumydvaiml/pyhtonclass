@@ -41,3 +41,10 @@ for i in n:
         count+=1
 print(count)
 
+
+string=input("Enter atring :")
+result=""
+for i in string:
+    if 'A'<=i <='Z':
+        result=chr(ord(i)+32)
+print(result)
