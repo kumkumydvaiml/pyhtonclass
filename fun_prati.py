@@ -52,19 +52,20 @@
 
 
 
-def lower(string):
-    result = ""
-    for i in string:
-        if 'A' <= i <= 'Z':      # agar uppercase hai
-            result += chr(ord(i) + 32)   # lowercase me convert karo
-        else:
-            result += i           # otherwise same character add karo
-    return result
+# def lower(string):
+#     result = ""
+#     for i in string:
+#         if 'A' <= i <= 'Z':      # agar uppercase hai
+#             result += chr(ord(i) + 32)   # lowercase me convert karo
+#         else:
+#             result += i           # otherwise same character add karo
+#     return result
 
-string = input("Enter a string: ")
-result = lower(string)
-print(result)
+# string = input("Enter a string: ")
+# result = lower(string)
+# print(result)
 
         
+
 
         
