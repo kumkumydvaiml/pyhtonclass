@@ -35,3 +35,13 @@ class Child(Parent):
         super().home()
 obj=Child()
 obj.home()
+
+
+def rev(s):
+    s1=""
+    for i in range(len(s)-1,-1,-1):
+        s1+=s[i]
+    return s1
+s=input("Enter a string :")
+result=rev(s)
+print(result)
