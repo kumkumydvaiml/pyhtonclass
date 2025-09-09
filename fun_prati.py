@@ -40,3 +40,4 @@ for i in n:
     if i in target:
         count+=1
 print(count)
+
