@@ -70,13 +70,27 @@ def upper(string):
     result=""
     for i in string:
         if 'a'<=i<='z':
-            result=chr(ord(i)-32)
+            result+=chr(ord(i)-32)
         else:
             result+=i
     return result
 string=input("Enter any string :")
 result=upper(string)
-print(result)        
+print(result)
+
+# def upper(string):
+#     result = ""
+#     for i in string:
+#         if 'a' <= i <= 'z':       # agar lowercase hai
+#             result += chr(ord(i) - 32)   # uppercase me convert karo
+#         else:
+#             result += i           # same add karo
+#     return result
+
+# string = input("Enter any string: ")
+# result = upper(string)
+# print(result)
+
 
 
         
