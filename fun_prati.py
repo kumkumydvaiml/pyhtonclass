@@ -66,18 +66,6 @@
 # print(result)
 
 
-def upper(string):
-    result=""
-    for i in string:
-        if 'a'<=i<='z':
-            result+=chr(ord(i)-32)
-        else:
-            result+=i
-    return result
-string=input("Enter any string :")
-result=upper(string)
-print(result)
-
 # def upper(string):
 #     result = ""
 #     for i in string:
@@ -90,6 +78,18 @@ print(result)
 # string = input("Enter any string: ")
 # result = upper(string)
 # print(result)
+
+
+def space(sentence):
+    result=""
+    for i in sentence:
+        if i!=" ":
+            result+=i
+    return result
+sentence=input("Enter any sentence :")
+result=space(sentence)
+print(result)
+
 
 
 
