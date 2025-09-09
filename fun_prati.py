@@ -46,5 +46,5 @@ string=input("Enter atring :")
 result=""
 for i in string:
     if 'A'<=i <='Z':
-        result=chr(ord(i)+32)
+        result+=chr(ord(i)+32)
 print(result)
