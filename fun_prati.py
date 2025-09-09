@@ -91,16 +91,19 @@
 # print(result)
 
 
-s1='aeiouAEIOU'
-def remove_vowels(word):
-    result=""
-    for i in word:
-        if i not in s1:
-            result+=i
-    return result
-word=input("Enter any word :")
-result=remove_vowels(word)
-print(result)
+# s1='aeiouAEIOU'
+# def remove_vowels(word):
+#     result=""
+#     for i in word:
+#         if i not in s1:
+#             result+=i
+#     return result
+# word=input("Enter any word :")
+# result=remove_vowels(word)
+# print(result)
+
+
+
         
         
 
