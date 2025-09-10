@@ -113,16 +113,18 @@
 # print(result)
 
 
-word='i am kumkum yadav'
-s=""
-count=0
-for i in word:
-    if i==" ":
-        count+=1
-    else:
-        s+=i
-print(count)        
-        
+def count_words(word):
+    s1=""
+    count=1
+    for i in word:
+        if i==" ":
+            count+=1
+        else:
+            s1+=i
+    return count
+word=input("Enter any sentence :")
+count=count_words(word)
+print(count)
 
 
 
