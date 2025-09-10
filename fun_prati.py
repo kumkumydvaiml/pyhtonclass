@@ -144,11 +144,15 @@
 s='kumkum'
 s1=''
 for i in range(len(s)):
-    if s[i]<='a' or s[i]<='z':
-        s1+=chr(ord(s[i])+32)
+    if i == 0 and 'a' <= s[i] <= 'z':   # पहला letter
+        s1 += chr(ord(s[i]) - 32)       # capital में convert
+    elif 'A' <= s[i] <= 'Z':            # बाकी अगर capital हो
+        s1 += chr(ord(s[i]) + 32)       # तो छोटे में convert
     else:
-        s1+=i
+        s1 += s[i]
+
 print(s1)
+
 
 
 
