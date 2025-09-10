@@ -141,6 +141,14 @@
 # s2=convert(s1,old,new)
 # print(s2)
 
+s='kumkum'
+s1=''
+for i in range(len(s)):
+    if s[i]<='a' or s[i]<='z':
+        s1+=chr(ord(s[i])+32)
+    else:
+        s1+=i
+print(s1)
 
 
 
