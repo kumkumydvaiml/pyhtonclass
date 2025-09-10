@@ -113,20 +113,15 @@
 # print(result)
 
 
-def upper_case(string):
-    blank_s=""
-    for i in string:
-        if i<='a' or i<='z':
-            blank_s+=chr(ord(i)-32)
-        else:
-            blank_s+=i
-    return blank_s
-string=input("Enter any string :")
-blank_s=upper_case(string)
-print(blank_s)
-
-
-        
+word='i am kumkum yadav'
+s=""
+count=0
+for i in word:
+    if i==" ":
+        count+=1
+    else:
+        s+=i
+print(count)        
         
 
 
