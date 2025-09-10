@@ -116,7 +116,7 @@
 def upper_case(string):
     blank_s=""
     for i in string:
-        if 'a'<=i<='z':
+        if i<='a' or i<='z':
             blank_s+=chr(ord(i)-32)
         else:
             blank_s+=i
