@@ -127,31 +127,26 @@
 # print(count)
 
 
-s='kumkum'
-old='k'
-new='m'
-s1=''
-for i in s:
-    if i==old:
-        s1+=new
-    else:
-        s1+=i
-print(s1)
+# def convert(s1,old,new):
+#     s2=''
+#     for i in s1:
+#         if i==old:
+#             s2+=new
+#         else:
+#             s2+=i
+#     return s2
+# s1=input("Enter a string :")
+# old=input("Enter old letter :")
+# new=input("Enter new letter :")
+# s2=convert(s1,old,new)
+# print(s2)
 
 
-def convert(s1,old,new):
-    s2=''
-    for i in s1:
-        if i==old:
-            s2+=new
-        else:
-            s2+=i
-    return s2
-s1=input("Enter a string :")
-old=input("Enter old letter :")
-new=input("Enter new letter :")
-s2=convert(s1,old,new)
-print(s2)
+
+
+
+
+
 
 
 
