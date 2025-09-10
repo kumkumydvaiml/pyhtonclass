@@ -127,6 +127,18 @@
 # print(count)
 
 
+s='kumkum'
+old='k'
+new='m'
+s1=''
+for i in s:
+    if i==old:
+        s1+=new
+    else:
+        s1+=i
+print(s1)
+
+
 
 
 
