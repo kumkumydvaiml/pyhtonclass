@@ -103,14 +103,15 @@
 # print(result)
 
 
-def list_length(li):
-    count=0
-    for i in li:
-        count+=1
-    return count
-li=eval(input("enter a list :"))
-result=list_length(li)
-print(result)
+# def list_length(li):
+#     count=0
+#     for i in li:
+#         count+=1
+#     return count
+# li=eval(input("enter a list :"))
+# result=list_length(li)
+# print(result)
+
 
 
 
