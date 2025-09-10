@@ -113,6 +113,17 @@
 # print(result)
 
 
+def upper_case(string):
+    blank_s=""
+    for i in string:
+        if 'a'<=i<='z':
+            blank_s+=chr(ord(i)-32)
+        else:
+            blank_s+=i
+    return blank_s
+string=input("Enter any string :")
+blank_s=upper_case(string)
+print(blank_s)
 
 
         
