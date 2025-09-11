@@ -180,6 +180,15 @@
 # print(freq)
 
 
+def count_list(li):
+    count=0
+    for i in li:
+        count+=1
+    return count
+li=eval(input("Enter a list :"))
+count=count_list(li)
+print(count)
+
 
 
 
