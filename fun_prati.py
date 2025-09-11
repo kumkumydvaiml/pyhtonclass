@@ -211,6 +211,18 @@
 # print(max)
 
 
+# def min_li(li):
+#     min=li[0]
+#     for i in li:
+#         if i<min:
+#             min=i
+#     return min
+# li=eval(input("Enter a list :"))
+# min=min_li(li)
+# print(min)
+
+
+
 
 
 
