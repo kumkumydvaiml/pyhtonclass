@@ -167,6 +167,20 @@
 # print(s1)
 
 
+# def frequency(s):
+#     freq={}
+#     for ch in s:
+#         if ch in freq:
+#             freq[ch]+=1
+#         else:
+#             freq[ch]=1
+#     return freq
+# s=input("Enter any string :")
+# freq=frequency(s)
+# print(freq)
+
+
+
 
 
 
