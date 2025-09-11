@@ -154,7 +154,17 @@
 # print(s1)
 
 
-
+# def unique_ch(s):
+#     s1=""
+#     for ch in s:
+#         if ch not in s1:
+#             s1+=ch
+#         else:
+#             s+=ch
+#     return s1
+# s=input("Enter a string :")
+# s1=unique_ch(s)
+# print(s1)
 
 
 
