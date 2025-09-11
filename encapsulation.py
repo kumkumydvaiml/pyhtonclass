@@ -39,3 +39,6 @@ obj=Child()
 # print(dir(Parent))
 print(Parent._Parent__principal)
 
+
+
+
