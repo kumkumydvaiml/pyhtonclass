@@ -190,16 +190,25 @@
 # print(count)
 
 
-def sum_list(li):
-    sum=0
-    for i in li:
-        sum+=i
-    return sum
-li=eval(input("Enter a list :"))
-sum=sum_list(li)
-print(sum)
+# def sum_list(li):
+#     sum=0
+#     for i in li:
+#         sum+=i
+#     return sum
+# li=eval(input("Enter a list :"))
+# sum=sum_list(li)
+# print(sum)
 
 
+# def max_li(li):
+#     max=li[0]
+#     for i in li:
+#         if i>max:
+#             max=i
+#     return max
+# li=eval(input("Enter a list :"))
+# max=max_li(li)
+# print(max)
 
 
 
