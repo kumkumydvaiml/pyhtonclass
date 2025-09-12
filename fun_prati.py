@@ -221,11 +221,9 @@
 # min=min_li(li)
 # print(min)
 
-li1=[1,2,3,4]
-li2=[1,2,3,4]
-print(id(li1),id(li2))
-
-
+x=10
+y=10
+print(id(x),id(y))
 
 
 
