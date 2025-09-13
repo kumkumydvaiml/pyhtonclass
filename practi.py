@@ -809,7 +809,16 @@
 # print(fact)
 
 
+# li=[10,20,30,40,50]
+# for i in li:
+#     i+=5
+#     print(i)
 
+li=[10,20,30,40,50]
+i=0
+while i<len(li):
+    print(li[i]+5)
+    i+=1
 
 
 
