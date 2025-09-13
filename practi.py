@@ -814,12 +814,17 @@
 #     i+=5
 #     print(i)
 
-li=[10,20,30,40,50]
-i=0
-while i<len(li):
-    print(li[i]+5)
-    i+=1
+# li=[10,20,30,40,50]
+# i=0
+# while i<len(li):
+#     print(li[i]+5)
+#     i+=1
 
+
+s='kumkum'
+li=[]
+li.append(s)
+print(li)
 
 
 
