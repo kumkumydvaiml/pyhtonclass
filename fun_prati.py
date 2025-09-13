@@ -220,19 +220,33 @@
 # li=eval(input("Enter a list :"))
 # min=min_li(li)
 # print(min)
-n=int(input("Enter a digit :"))
+# n=int(input("Enter a digit :"))
+# sum=0
+# arm=n
+# x=len(str(n))
+
+# while n>0:
+#     digit=n%10
+#     sum=sum+digit**x
+#     n//=10
+# if arm==sum:
+#     print('Armstrong')
+# else:
+#     print('Not armstrong')
+
+
+n=int(input("Enter a digit  :"))
 sum=0
 arm=n
 x=len(str(n))
-
-while n>0:
-    digit=n%10
-    sum=sum+digit**x
-    n//=10
+for digit in str(n):
+    sum+=int(digit)**x
 if arm==sum:
     print('Armstrong')
 else:
     print('Not armstrong')
+
+    
 
 
 
