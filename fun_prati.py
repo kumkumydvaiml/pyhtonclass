@@ -220,12 +220,19 @@
 # li=eval(input("Enter a list :"))
 # min=min_li(li)
 # print(min)
+n=int(input("Enter a digit :"))
+sum=0
+arm=n
+x=len(str(n))
 
-a=[1,2,3]
-b=[1,2,3]
-print(id(a),id(b))
-print(a is b)
-
+while n>0:
+    digit=n%10
+    sum=sum+digit**x
+    n//=10
+if arm==sum:
+    print('Armstrong')
+else:
+    print('Not armstrong')
 
 
 
