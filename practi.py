@@ -760,17 +760,29 @@
 # print(sum)
 
 
-def count_li(n):
-    return count
-n=eval(input("Enter a list :"))
-count=0
-for i in n:
-    count+=1
-print(count)
+# def count_li(n):
+#     return count
+# n=eval(input("Enter a list :"))
+# count=0
+# for i in n:
+#     count+=1
+# print(count)
 
 
+# n=5
+# i=1
+# while i<=n:
+#     print(i,end=" ")
+#     i+=1
 
 
+# n=5
+# sum=0
+# i=1
+# while i<=n:
+#     sum=sum+i
+#     i+=1
+# print(sum)
 
 
 
