@@ -825,6 +825,32 @@
 # li.append(s)
 # print(li)
 
+# l = [64, 34, 25, 12, 22, 11, 90, 5]
+# max=l[0]
+
+# for i in range(len(l)-1):
+#     if i<max:
+#         max=i
+# print(max)
+
+
+
+# Program to convert month name to number of days
+
+month = input("Enter month name: ")
+
+# convert to lowercase for easy comparison
+month = month.lower()
+
+if month in ("january", "march", "may", "july", "august", "october", "december"):
+    print("31 days")
+elif month in ("april", "june", "september", "november"):
+    print("30 days")
+elif month == "february":
+    print("28 or 29 days")
+else:
+    print("Invalid month name")
+
 
 
 
