@@ -820,11 +820,10 @@
 #     print(li[i]+5)
 #     i+=1
 
-
-s='kumkum'
-li=[]
-li.append(s)
-print(li)
+# s='kumkum'
+# li=[]
+# li.append(s)
+# print(li)
 
 
 
