@@ -837,19 +837,183 @@
 
 # Program to convert month name to number of days
 
-month = input("Enter month name: ")
+# month = input("Enter month name: ")
 
 # convert to lowercase for easy comparison
-month = month.lower()
+# month = month.lower()
 
-if month in ("january", "march", "may", "july", "august", "october", "december"):
-    print("31 days")
-elif month in ("april", "june", "september", "november"):
-    print("30 days")
-elif month == "february":
-    print("28 or 29 days")
-else:
-    print("Invalid month name")
+# if month in ("january", "march", "may", "july", "august", "october", "december"):
+#     print("31 days")
+# elif month in ("april", "june", "september", "november"):
+#     print("30 days")
+# elif month == "february":
+#     print("28 or 29 days")
+# else:
+#     print("Invalid month name")
+
+
+# n=float(input("Enter a number :"))
+# squ=n**0.5
+# print(squ)
+
+
+# year=int(input("Enter a year :"))
+# if year%4==0:
+#     if year%100==0:
+#         if year%400==0:
+#             print("Leap year")
+#         else:
+#             print("Not leap")
+#     else:
+#         print("Leap year")
+# else:
+#     print("Not a leap year")
+
+# x=int(input("Enter x :"))
+# y=int(input("Enter y :"))
+# x,y=y,x
+# print(x)
+# print(y)
+
+# x=int(input("Enter x :"))
+# y=int(input("Enter y :"))
+# x=x*y
+# y=x/y
+# x=x/y
+# print(x)
+# print(y)
+
+
+# x=int(input("Enter x :"))
+# y=int(input("Enter y :"))
+# temp=x
+# x=y
+# y=temp
+# print(x)
+# print(y)
+
+
+# t=(1,2,3)
+# t1=()
+# for i in range(len(t)-1,-1,-1):
+#     t1+=(t[i],)
+# print(t1)
+
+# li=[1,2,3]
+# t=()
+# for i in li:
+#     t+=(i,)
+# print(t)
+
+# t=(1,2,3)
+# li=[]
+# for i in t:
+#     li.append(t)
+# print(li)
+
+
+# d={1:'a',
+#    2:'b',
+#    3:'c'}
+# keys=[]
+# for key in d:
+#     keys.append(key)
+# print(keys)
+    
+
+# s1={1,2,4,5,4}
+# s2={59,8}
+# s0=set()
+# for i in s1:
+#     s0.add(i)
+# for i in s2:
+#     s0.add(i)
+# print(s0)
+
+
+# s1={1,2,4,5,4}
+# li=[]
+# for i in s1:
+#     li.append(i)
+# print(li)
+
+
+# n1=int(input("Enter number 1 :"))
+# n2=int(input("Enter number 2 :"))
+# if n1>n2:
+#     max=n1
+# else:
+#     max=n2
+# while 1:
+#     if max%n1==0 and max%n2==0:
+#         break
+# print(max)
+
+# n1=int(input("Enter number 1 :"))
+# n2=int(input("Enter number 2 :"))
+# if n1>n2:
+#     max=n1
+# else:
+#     max=n2
+# while 1:
+#     if max%n1==0 and max%n2==0:
+#         break
+# print(max)
+
+
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print("*",end=" ")
+#     print()
+
+
+# s1='listen'
+# s2='kumkum'
+# for i in s1:
+#     pass
+# if i in s2:
+#     print("anagram")
+# else:
+#     print("not an anagram")
+
+
+# n=int(input("Enter a number :"))
+# fact=1
+# for i in range(1,n+1):
+#     fact=fact*i
+# print(fact)
+
+
+# n=int(input("Enter a number :"))
+# count=0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count+=1
+# if count==2:
+#     print("Prime")
+# else:
+#     print("Not a prime")
+
+
+# n1=int(input("Enter number 1 :"))
+# n2=int(input("Enter number 2 :"))
+
+# if n1<n2:
+#     min=n1
+# else:
+#     min=n2
+# for i in range(1,min+1):
+#     if n1%i==0 and n2%i==0:
+#         break
+# print(i)
+
+n=5
+for i in range(1,11):
+    for j in range(1,11):
+        print(i*j,end=" ")
+    print()
+    
 
 
 
