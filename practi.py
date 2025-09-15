@@ -1055,7 +1055,56 @@
 #     print("not")
 
 
+# ***** 
+# ****
+# *** 
+# ** 
+# *
+# n=5
+# for i in range(1,n+1):
+#     print(" "*(n-i),"*"*(2*i-1))
 
+
+# Python program to get the Fibonacci series. (0,1,1,2,3,5,8,13,21……………..)
+# n=5
+# first,second=0,1
+# print(first)
+# print(second)
+# for i in range(1,n+1):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)
+
+
+
+# n=int(input("Enter a number :"))
+# ans=n
+# x=len(str(n))
+# sum=0
+# while n>0:
+#     digit=n%10
+#     sum=sum+digit**x
+#     n//=10
+# if ans==sum:
+#     print("Armstrong")
+# else:
+#     print("Not armstrong")
+
+
+# power=5
+# base=2
+# ans=base**power
+# print(ans)
+
+
+# l=[64,89,22,5,1,5,77]
+# n=len(l)
+# for i in range(1,n-1):
+#     for j in range(n-i-1):
+#         if l[j]>l[j+1]:
+#             l[j],l[j+1]=l[j+1],l[j]
+# print(l)
 
 
 
