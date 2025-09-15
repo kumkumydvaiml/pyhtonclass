@@ -1023,9 +1023,37 @@
 #     print()
 
 
+# d1={1:'kumkum',2:"app",3:"B"}
+# d2={5:'mantasa'}
+# merge={}
+# for key in d1:
+#     merge[key]=d1[key]
+# for key in d2:
+#     merge[key]=d2[key]
+# print(merge)
 
 
+# d={1:'kumkum',2:"app",3:"B"}
+
+# for key in d:
+#     print(key)
     
+
+# d={1:'kumkum',2:"app",3:"B"}
+# for key in d:
+#     print(d[key])
+
+
+# d={1:'kumkum',2:"app",3:"B"}
+# target='kumkum'
+# for key in d:
+#     if d[key]==target:
+
+#         print("yes")
+#         break
+# else:
+#     print("not")
+
 
 
 
