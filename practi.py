@@ -1008,11 +1008,23 @@
 #         break
 # print(i)
 
-n=5
-for i in range(1,11):
-    for j in range(1,11):
-        print(i*j,end=" ")
-    print()
+# n=5
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print(i*j,end=" ")
+#     print()
+
+
+# k=[]
+# for i in range(10,1,-2):
+#     k.append(i)
+#     for j in k:
+#         print(j,end=" ")
+#     print()
+
+
+
+
     
 
 
