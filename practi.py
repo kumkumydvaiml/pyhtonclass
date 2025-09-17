@@ -1107,6 +1107,81 @@
 # print(l)
 
 
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(j*2-1,end=' ')
+#     print()
 
+
+# n=5
+# k=[]
+# for i in range(10,1,-2):
+#     k.append(i)
+#     for j in k:
+#         print(j,end=" ")
+#     print()
+
+
+# n=int(input("Enter a number :"))
+# count=0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count+=1
+# if count==2:
+#     print("prime")
+# else:
+#     print("Not prime")
+
+
+# n=int(input("Enter a number :"))
+# ans=n
+# sum=0
+# for i in range(1,n):
+#     if n%i==0:
+#         sum=sum+i
+# if sum==ans:
+#     print("prefect")
+# else:
+#     print("Not perfect")
+
+# n=5
+# for i in range(1,n+1):
+#     ch='A'
+#     for j in range(1,i+1):
+#          print(ch,end=" ")
+#          ch=chr(ord(ch)+1)
+#     print()
+
+# s='kumkum'
+# l='aeiouAEIOU'
+# v_count=0
+# c_count=0
+# for i in s:
+#     if i in l:
+#         v_count+=1
+# print(v_count)
+# for i in s:
+#     if i not in l:
+#         c_count+=1
+# print(c_count)
+
+
+# n=1412
+# sum=0
+# ans=n
+# while n>0:
+#     digit=n%10
+#     sum=sum+digit
+#     n//=10
+# mul=1
+# while n>0:
+#     digit=n%10
+#     mul=mul*digit
+#     n//=10
+# if sum==mul:
+#     print("Spy ")
+# else:
+#     print("Not")
 
 
