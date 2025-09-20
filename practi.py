@@ -1239,7 +1239,16 @@
 # print(result)
 
 
-
-
+n=int(input("Enter a number :"))
+ans=n
+sum=0
+while n>0:
+    digit=n%10
+    sum=sum+digit
+    n//=10
+if ans%sum==0:
+    print("Harshad no")
+else:
+    print("Not Harshad no")
 
 
