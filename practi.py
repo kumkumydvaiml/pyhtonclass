@@ -1239,16 +1239,29 @@
 # print(result)
 
 
-n=int(input("Enter a number :"))
-ans=n
-sum=0
-while n>0:
-    digit=n%10
-    sum=sum+digit
-    n//=10
-if ans%sum==0:
-    print("Harshad no")
-else:
-    print("Not Harshad no")
+# n=int(input("Enter a number :"))
+# ans=n
+# sum=0
+# while n>0:
+#     digit=n%10
+#     sum=sum+digit
+#     n//=10
+# if ans%sum==0:
+#     print("Harshad no")
+# else:
+#     print("Not Harshad no")
 
+
+# n=int(input("Enter a number :"))
+
+# sum=0
+# squ=n**2
+# while squ>0:
+#     digit=squ%10
+#     sum=sum+digit
+#     squ//=10
+# if sum==n:
+#     print("Neon number ")
+# else:
+#     print("Not Neon number")
 
