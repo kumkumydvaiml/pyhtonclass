@@ -22,9 +22,29 @@
 # s="_".join("li")
 # print(s)
 
+# s="python"
+# x=s.count('')
+# print(x)
+
+s="python_language"
+print(s.split())
+
+s="this is python class"
+print(s.split())  #space se spllit karta hai
+
+s="python_language_this_is_python_class"
+print(s.split("_")) 
+
+s="python_language_this_is_python_class"
+print(s.split("_",1)) 
+
+# flavours of pyhton
+
+# syntax string spilit()
+# string.split('where','how')
+# s="python","language"
+# print((s.split()))
+
 s="python"
-x=s.count('')
+x=s.replace("t","a")
 print(x)
-
-
-
