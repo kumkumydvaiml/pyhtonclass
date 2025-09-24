@@ -48,3 +48,5 @@ print(s.split("_",1))
 s="python"
 x=s.replace("t","a")
 print(x)
+
+#space false hota hai
