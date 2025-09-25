@@ -26,17 +26,17 @@
 # x=s.count('')
 # print(x)
 
-s="python_language"
-print(s.split())
+# s="python_language"
+# print(s.split())
 
-s="this is python class"
-print(s.split())  #space se spllit karta hai
+# s="this is python class"
+# print(s.split())  #space se spllit karta hai
 
-s="python_language_this_is_python_class"
-print(s.split("_")) 
+# s="python_language_this_is_python_class"
+# print(s.split("_")) 
 
-s="python_language_this_is_python_class"
-print(s.split("_",1)) 
+# s="python_language_this_is_python_class"
+# print(s.split("_",1)) 
 
 # flavours of pyhton
 
@@ -45,8 +45,35 @@ print(s.split("_",1))
 # s="python","language"
 # print((s.split()))
 
-s="python"
-x=s.replace("t","a")
-print(x)
+# s="python"
+# x=s.replace("t","a")
+# print(x)
 
 #space false hota hai
+
+
+# r,s="python","language"
+# v=",".join([r,s])
+# print(v)
+# s="i am kumkum"
+# v=s.split("a")
+# print(v)
+
+# s=r.isalnum()
+# s=r.capitalize()
+# s=r.casefold()
+# s=r.count("p")
+# s=r.encode() doubt
+# s=r.endswith("n")
+# s=r.find("e")
+# s=r.index("u")
+# s=r.isalpha()
+# s=r.isascii()
+# s=r.isdigit()
+# s=r.isidentifier()
+# s=r.isprintable()
+# s=r.islower()
+# s=r.isupper()
+# s=r.replace("o","a")
+# s=r.removesuffix("t")
+
