@@ -99,8 +99,10 @@
 #     print(i)
 #     i+=1
 
-n=input("enter :")
-i=1
-while n<=10:
-    print(n)
-    i+=1
+# n=input("enter :")
+# i=1
+# while n<=10:
+#     print(n)
+#     i+=1
+
+li=[1,3,6,"python","language"]
