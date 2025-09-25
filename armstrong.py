@@ -78,7 +78,18 @@
 # s=r.removesuffix("t")
 
 
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     print("*"*i)
+
+
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     print(" "*(n-i)+"*_"*i)
+
+
 n=int(input("Enter a number :"))
 for i in range(1,n+1):
-    print("*"*i)
+    print(" "*(n-i)+"* "*i)
+
 
