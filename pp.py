@@ -105,4 +105,5 @@
 #     print(n)
 #     i+=1
 
-li=[1,3,6,"python","language"]
+s="language"
+print(s.count("a"))
