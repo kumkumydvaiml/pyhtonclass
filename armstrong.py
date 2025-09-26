@@ -97,8 +97,26 @@
 #     print(" "*(2*n-i)+"* "*i)
 
 
-n=int(input("Enter a number :"))
-for i in range(1,n+1):
-    print(" "*(n-i)+"*_"*i)
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     print(" "*(n-i)+"*_"*i)
 
+
+# n=int(input("Enter a number :"))
+# s="A"
+# for _ in range(n+1):
+#     print(s,end=" ")
+#     s=chr(ord(s)+1)
+
+
+n=int(input("Enter a number :"))
+
+for i in range(1,n+1):
+    s="A"
+    for j in range(1,n+1):
+        print(s,end=" ")
+        s=chr(ord(s)+1)
+    print()
+
+    
 
