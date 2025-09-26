@@ -1,4 +1,4 @@
-#topic- methods in string
+# topic- methods in string
 # s="this Is python class"
 # print(s.lower())
 # print(s.upper())
@@ -16,8 +16,8 @@
 # print(type(s))
 
 s="This is python class"
-# res=s.split()
-# print(res)
+res=s.split(" ")
+print(res)
 
 # res1=s.split('i')
 # print(res1)
@@ -25,17 +25,17 @@ s="This is python class"
 # res2=s.split(' ',2)
 # print(res2)
 
-res1=s.isalnum()
-print(res1)
+# res1=s.isalnum()
+# print(res1)
 
 
 
-print(chr(48))
-print(chr(65))
-print(chr(97))
-print(chr(1))
-print(chr(32))
-print(chr(1))
+# print(chr(48))
+# print(chr(65))
+# print(chr(97))
+# print(chr(1))
+# print(chr(32))
+# print(chr(1))
 
 
 

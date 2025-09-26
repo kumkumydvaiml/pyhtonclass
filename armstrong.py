@@ -88,13 +88,17 @@
 #     print(" "*(n-i)+"*_"*i)
 
 
-n=int(input("Enter a number :"))
-for i in range(1,n+1):
-    print(" "*(n-i)+"* "*i)
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     print(" "*(n-i)+"* "*i)
+
+# n=int(input("Enter a number :"))
+# for i in range(1,n+1):
+#     print(" "*(2*n-i)+"* "*i)
+
 
 n=int(input("Enter a number :"))
 for i in range(1,n+1):
-    print(" "*(2*n-i)+"* "*i)
-
+    print(" "*(n-i)+"*_"*i)
 
 

@@ -1,10 +1,11 @@
 d={'name':'kumkum',
-   'age':'37',
-   'quali':'mtech'}
+   'age':'21',
+   'quali':'btech'}
 print(d.keys())
 print(d.values())
 print(d.items())
 print(d.get('name'))
+
 
 d1={
     1:'python',

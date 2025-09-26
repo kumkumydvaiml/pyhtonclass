@@ -105,5 +105,16 @@
 #     print(n)
 #     i+=1
 
-s="language"
-print(s.count("a"))
+# s="python language"
+# x=s.split("l")
+# print(x)
+
+
+# s=set()
+# print(type(s))
+# b=dict()
+# print(type(b))
+
+# print(x:=10)  # walrus operator
+
+
