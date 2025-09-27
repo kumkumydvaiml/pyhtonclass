@@ -293,6 +293,34 @@
 #     print("Not Anagram")
 
 
+# n=int(input("Enter a number :"))
+# ans=n
+# sum=0
+# pow=n*n
+# for i in range(1,n+1):
+#     pow=pow%10
+#     sum+=pow
+#     n//=10
+# if ans==sum:
+#     print("Neon")
+# else:
+#     print("Not a Neon")/
+
+
+n=int(input("Enter a digit :"))
+ans=n
+sum=0
+while n>0:
+    digit=n%10
+    fact=1
+    for i in range(1,digit+1):
+        fact*=i
+    sum+=fact
+    n//=10
+if ans==sum:
+    print("Peterson")
+else:
+    print("Not a peterson")
 
 
 
