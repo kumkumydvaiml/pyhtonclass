@@ -165,3 +165,135 @@
 # print(s1)
 
 
+# w=input("Enter any sentence :")
+# w1=""
+# for i in w:
+#     if i!=" ":
+#         w1+=i
+# print(w1)
+
+
+# s=input("Enter any word :")
+# s1=""
+# for i in s:
+#     if i>='A' or i<='Z':
+#         s1=chr(ord(i)+32)
+#     print(s1,end="")
+
+
+# s=input("Enter any sentence :")
+# count=1
+# for i in s:
+#     if i==" ":
+#         count+=1
+# print(count)
+
+
+# s=input("Enter any word :")
+# s=s.lower()
+# s1=""
+# old,new="k","c"
+# for i in s:
+#     if i==old:
+#         s1+=new
+#     else:
+#         s1+=i
+# print(s1)
+
+# s=input("Enter any word :")
+# s=s.lower()
+# s1=""
+# vowels="aeiou"
+# for i in s:
+#     if i not in vowels:
+#         s1+=i
+#     else:
+#         pass
+# print(s1)
+
+# s=input("Enter any word :")
+# s1=""
+# for i in s:
+#     if i not in s1:
+#         s1+=i
+# print(s1)
+
+
+# li=[1,2,3,9]
+# count=0
+# for i in li:
+#     count+=1
+# print(count)
+
+# li=[1,2,3,9]
+# sum=0
+# for i in li:
+#     sum+=i
+# print(sum)
+
+# li=[1,2,3,9]
+# max=li[0]
+# for i in li:
+#     if i>max:
+#         max=i
+# print(max)
+
+# li=[1,2,3,9]
+# li1=[]
+# for i in range(len(li)-1,-1,-1):
+#     li1.append(li[i])
+# print(li1)
+
+
+# li=[1,2,3,9,1,9,0]
+# li1=[]
+# for i in li:
+#     if i not in li1:
+#         li1.append(i)
+# print(li1)
+
+# li=[1,2,3,9]
+# tup=()
+# for i in li:
+#     tup+=(i,)
+# print(tup)
+
+
+# tup=(1,2,3,9)
+
+# tup1=()
+# for i in range(len(tup)-1,-1,-1):
+#     tup1+=(tup[i],)
+# print(tup1)
+
+# n=int(input("Enter a number :"))
+# ans=n
+# sum=0
+# for i in range(1,n+1):
+#     digit=n%10
+#     sum+=digit
+#     n//=10
+# if ans%sum==0:
+#     print("Harshad")
+# else:
+#     print("Not harshad")
+
+
+
+# s=eval(input("Enter string 1 :"))
+# s1=eval(input("Enter string 2 :"))
+# s=sorted(s)
+# s1=sorted(s1)
+# if len(s)==len(s1):
+#     if s==s1:
+#         print("Anagram")
+#     else:
+#         print("Not an Anagram")  
+# else:
+#     print("Not Anagram")
+
+
+
+
+
+
