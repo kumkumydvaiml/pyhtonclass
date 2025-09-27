@@ -139,8 +139,6 @@
 #     print(" ".join(l))
 
 
-
-
 n=int(input("Enter a number :"))
 s="A"
 for i in range(1,n+1):
@@ -151,6 +149,41 @@ for i in range(1,n+1):
         s=chr(ord(s)+1)
     print(" ".join(l))
 
+
+# n=int(input("Enter a number :"))
+# s="A"
+# for i in range(n+1,0,-1):
+#     print(" "*(n-i),end=" ")
+#     l=[]
+#     for j  in range(1,i+1):
+#         l.append(s)
+#         s=chr(ord(s)+1)
+#     print(" ".join(l))
+
+
+# n=int(input("Enter a number :"))
+# count=1
+# for i in range(1,n+1):
+#     print(" "*(n-i),end=" ")
+#     l=[]
+#     for j  in range(1,i+1):
+#         l.append(count)
+#         count+=1
+#     print(l)
+    
+
+
+n=int(input("Enter a number :"))
+
+for i in range(1,n+1):
+    count=1
+    print(" "*(n-i),end=" ")
+    l=[]
+    for j  in range(1,i+1):
+        l.append(count)
+        count+=1
+    print(l)
+    
     
                
 

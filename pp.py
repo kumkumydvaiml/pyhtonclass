@@ -117,4 +117,45 @@
 
 # print(x:=10)  # walrus operator
 
+# n=int(input("Enter a number :"))
+# count=1
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(count,end=" ")
+#         count+=1
+#     print()
+
+
+# n=int(input("Enter a number :"))
+# first,second=0,1
+# print(first)
+# print(second)
+# for i in range(1,n-1):
+#     next=first+second
+#     first=second
+#     second=next
+#     print(next)
+
+
+# n=int(input("Enter a number :"))
+# sum=0
+# for i in range(1,n):
+#     if n%i==0:
+#         sum+=i
+# if n==sum:
+#     print("Perfect")
+# else:
+#     print("Not perfect")
+
+
+# n=int(input("Enter a number :"))
+# count=0
+# for i in range(2,n+1):
+#     if n%i==0:
+#         count+=1
+# if count==1:
+#     print("prime")
+# else:
+#     print("Not a Prime")
+
 
