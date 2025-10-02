@@ -139,15 +139,15 @@
 #     print(" ".join(l))
 
 
-n=int(input("Enter a number :"))
-s="A"
-for i in range(1,n+1):
-    print(" "*(n-i),end=" ")
-    l=[]
-    for j  in range(1,i+1):
-        l.append(s)
-        s=chr(ord(s)+1)
-    print(" ".join(l))
+# n=int(input("Enter a number :"))
+# s="A"
+# for i in range(1,n+1):
+#     print(" "*(n-i),end=" ")
+#     l=[]
+#     for j  in range(1,i+1):
+#         l.append(s)
+#         s=chr(ord(s)+1)
+#     print(" ".join(l))
 
 
 # n=int(input("Enter a number :"))
@@ -161,33 +161,67 @@ for i in range(1,n+1):
 #     print(" ".join(l))
 
 
+
 # n=int(input("Enter a number :"))
-# count=1
+
 # for i in range(1,n+1):
 #     print(" "*(n-i),end=" ")
 #     l=[]
 #     for j  in range(1,i+1):
-#         l.append(count)
-#         count+=1
+#         l.append(j*2+0)
+        
 #     print(l)
     
 
+# li=eval(input("Enter a number :"))
+# li_even=[]
+# li_odd=[]
+# result=[]
+# for i in li:
+#     if i%2==0:
+#         li_even+=i
+#         li_even.append(result)
+#     else:
+#         li_odd+=i
+#         li_odd.append(result)
 
-n=int(input("Enter a number :"))
+# print(result)
 
-for i in range(1,n+1):
-    count=1
-    print(" "*(n-i),end=" ")
-    l=[]
-    for j  in range(1,i+1):
-        l.append(count)
-        count+=1
-    print(l)
+
+# n=eval(input("Enter anything:"))
+# if type(n)==int:
+#     print("Integer")
+# elif type(n)==float:
+#     print("float")
+# elif type(n)==list:
+#     print("List")
+# else:
+#     print("Invalid")
+
+
+# li=(1,23,4)
+# print(list(li))
     
     
                
+# s=input("Enter a string")
+# s=s.upper()
+# for i in s:
+#     if i>="A" or i<="Z":
+#         x=chr(ord(i)+2)
+#     print(x)
 
+li=[1,0,2,4,0,3,0]
+li1=[]
+li2=[]
+result=[]
+for i in li:
+    if i!=0:
+        li.append(li1)
+        li1.append(result)
+    else:
+        li.append(li2)
+        li2.append(result)
+print(result)
 
-
-    
 

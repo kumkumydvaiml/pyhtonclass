@@ -307,21 +307,87 @@
 #     print("Not a Neon")/
 
 
-n=int(input("Enter a digit :"))
-ans=n
-sum=0
-while n>0:
-    digit=n%10
-    fact=1
-    for i in range(1,digit+1):
-        fact*=i
-    sum+=fact
-    n//=10
-if ans==sum:
-    print("Peterson")
-else:
-    print("Not a peterson")
+# n=int(input("Enter a digit :"))
+# ans=n
+# sum=0
+# while n>0:
+#     digit=n%10
+#     fact=1
+#     for i in range(1,digit+1):
+#         fact*=i
+#     sum+=fact
+#     n//=10
+# if ans==sum:
+#     print("Peterson")
+# else:
+#     print("Not a peterson")
 
+
+
+
+# n=int(input("Enter a digit :"))
+# ans=n
+# sum,mul=0,1
+# while n>0:
+#     digit=n%10
+#     sum+=digit
+#     mul*=digit
+#     n//=10
+# if sum==mul:
+#     print("Spy")
+# else:
+#     print("Not a spy")
+
+
+# li=[1,2,4,9,10,0]
+# n=len(li)
+# for i in range(n-1):
+#     for j in range(n-i-1):
+#         if li[j]>li[j+1]:
+#             li[j],li[j+1]=li[j+1],li[j]
+# print(li)
+
+
+# n=int(input("Enter a number :"))
+# count=0
+# for i in range(2,n+1):
+#     if n%i==0:
+#         count+=1
+# if count==1:
+#     print("Prime")
+# else:
+#     print("Not a prime")
+
+
+# li=[0,1,0,2,0,3,4]
+# li1=[]
+# li2=[]
+# result=[]
+# for i in li:
+#     if i!=0:
+#         li1.append(i)
+#     else:
+#         li2.append(i)
+# for j in li1:
+#     result.append(j)
+# for e in li2:
+#     result.append(e)
+# print(result)
+
+# li=[2,3,5,8,6,1]
+# li1=[]
+# li2=[]
+# result=[]
+# for i in li:
+#     if i%2==0:
+#         li1.append(i)
+#     else:
+#         li2.append(i)
+# for j in li1:
+#     result.append(j)
+# for e in li2:
+#     result.append(e)
+# print(result)
 
 
 
