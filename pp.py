@@ -374,6 +374,7 @@
 #     result.append(e)
 # print(result)
 
+
 # li=[2,3,5,8,6,1]
 # li1=[]
 # li2=[]
