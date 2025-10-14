@@ -399,5 +399,10 @@ d1={1:'age',
 d2={3:'education'}
 d1.update(d2)
 print(d1)
+# d1={1:'age',
+#     2:'name'}
+# d2={3:'education'}
+# d1.update(d2)
+# print(d1)
 
 
