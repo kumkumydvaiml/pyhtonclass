@@ -394,15 +394,22 @@
 
 
 
-d1={1:'age',
-    2:'name'}
-d2={3:'education'}
-d1.update(d2)
-print(d1)
+# d1={1:'age',
+#     2:'name'}
+# d2={3:'education'}
+# d1.update(d2)
+# print(d1)
 # d1={1:'age',
 #     2:'name'}
 # d2={3:'education'}
 # d1.update(d2)
 # print(d1)
 
+
+n=int(input("Enter the numbers of rows :"))
+for i in range(0,n+1):
+    print(" "*(n-i),"*"*i)
+for i in range(n,0,-1):
+    print(" "*(n-i),"*"*i)
+    
 
