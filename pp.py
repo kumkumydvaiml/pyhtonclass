@@ -406,10 +406,43 @@
 # print(d1)
 
 
-n=int(input("Enter the numbers of rows :"))
-for i in range(0,n+1):
-    print(" "*(n-i),"*"*i)
-for i in range(n,0,-1):
-    print(" "*(n-i),"*"*i)
-    
+# n=int(input("Enter the numbers of rows :"))
+# for i in range(0,n+1):
+#     print(" "*(n-i),"*"*i)
+# for i in range(n,0,-1):
+#     print(" "*(n-i),"*"*i)
+
+# n=int(input("Enter a number :"))
+# sum=0
+# while n>0:
+#     digit=n%10
+#     sum+=digit
+#     n//=10
+# print(sum)
+
+# n=int(input("Enter a number :"))
+# rev=0
+# x=n
+# while n>0:
+#     digit=n%10
+#     rev=rev*10+digit
+#     n//=10
+# if x==rev:
+#     print("Palindrone")
+# else:
+#     print("Not a palindrone")
+
+# li=eval(input("Enter a list :"))
+# max=li[0]
+# for i in li:
+#     if i>max:
+#         max=i
+# print(max)
+
+n=int(input("Enter a number :"))
+fact=1
+for i in range(1,n+1):
+    fact*=i
+print(fact)
+
 
